@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Snapshot of the Experience component 1`] = `
+<div
+  className="page-layout"
+>
+  <div
+    className="sticky-header rounded-t-xl"
+  >
+    WORK EXPERIENCE
+  </div>
+  <div
+    className=" flex flex-col items-center justify-center bg-gray-400 dark:bg-gray-900 rounded-b-xl p-4 py-10 md:py-14 lg:py-16 transition duration-500 bg-opacity-70 dark:bg-opacity-70 min-h-auto"
+  >
+    <div
+      className="flex flex-col justify-center gap-4 bg-gray-500 border-2 border-gray-300 rounded-lg p-4 mb-2 w-full sm:w-11/12 xl:w-2/3 md:h-56"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flex flex-col "
+        >
+          <h1
+            className="text-2xl"
+          >
+            <div
+              className="relative"
+            >
+              <a
+                alt="company"
+                experience-tool-tip-msg="Click here to visit the company's website"
+                href="https://houston-inc.com/"
+                target="blank"
+              >
+                Houston Inc
+              </a>
+            </div>
+          </h1>
+          <div
+            className="text-md"
+          >
+            SEPTEMBER 2021 - PRESENT
+          </div>
+        </div>
+        <div
+          className="text-gray-900 pb-1 font-bold"
+        >
+          Software Developer - Consultant
+        </div>
+      </div>
+      <p
+        className="text-gray-300 border-t-2 border-gray-300 pt-3 text-justify"
+      >
+        Support to further scale, debug and maintain the application's functionality to our customers needs. From which I've had the opportunity to develope my skills and learn how to work with multiple technologies such as resources on AWS, DevOps with Docker and Kubernetes, GCloud, Auth0, Datadog and many more that are constantly used on our clients applications and integration. 
+      </p>
+    </div>
+    <div
+      className="flex flex-col justify-center gap-4 bg-gray-500 border-2 border-gray-300 rounded-lg p-4 mb-2 w-full sm:w-11/12 xl:w-2/3 md:h-56"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flex flex-col "
+        >
+          <h1
+            className="text-2xl"
+          >
+            <div
+              className="relative"
+            >
+              <a
+                alt="company"
+                experience-tool-tip-msg="Click here to visit the company's website"
+                href="https://www.hotelkamp.com/en/"
+                target="blank"
+              >
+                Hotel Kämp
+              </a>
+            </div>
+          </h1>
+          <div
+            className="text-md"
+          >
+            SEPTEMBER 2015 - AUGUST 2020
+          </div>
+        </div>
+        <div
+          className="text-gray-900 pb-1 font-bold"
+        >
+          Room service and restaurant waiter
+        </div>
+      </div>
+      <p
+        className="text-gray-300 border-t-2 border-gray-300 pt-3 text-justify"
+      >
+        Responsible for the duties and maintenance of the room service department along with the guest's wishes and needs at the restaurant and guests rooms
+      </p>
+    </div>
+    <div
+      className="flex flex-col justify-center gap-4 bg-gray-500 border-2 border-gray-300 rounded-lg p-4 mb-2 w-full sm:w-11/12 xl:w-2/3 md:h-56"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flex flex-col "
+        >
+          <h1
+            className="text-2xl"
+          >
+            Numerous restaurants and hotels
+          </h1>
+          <div
+            className="text-md"
+          >
+            JANUARY 2007 - AUGUST 2020
+          </div>
+        </div>
+        <div
+          className="text-gray-900 pb-1 font-bold"
+        >
+          Waiter, Front Desk and kitchen staff
+        </div>
+      </div>
+      <p
+        className="text-gray-300 border-t-2 border-gray-300 pt-3 text-justify"
+      >
+        Waiter supervisor, cook, dishwasher. Experience that helps me to really listen and understand the customer's needs
+      </p>
+    </div>
+    <div
+      className="flex flex-col justify-center gap-4 bg-gray-500 border-2 border-gray-300 rounded-lg p-4 mb-2 w-full sm:w-11/12 xl:w-2/3 md:h-56"
+    >
+      <div
+        className=""
+      >
+        <div
+          className="flex flex-col "
+        >
+          <h1
+            className="text-2xl"
+          >
+            Numerous bars, restaurants, concerts and music shops
+          </h1>
+          <div
+            className="text-md"
+          >
+            JANUARY 1998 - AUGUST 2011
+          </div>
+        </div>
+        <div
+          className="text-gray-900 pb-1 font-bold"
+        >
+          Professional drummer/Drum teacher
+        </div>
+      </div>
+      <p
+        className="text-gray-300 border-t-2 border-gray-300 pt-3 text-justify"
+      >
+        Worked as a drummer and group leader in several bands and teaching drums as a side job
+      </p>
+    </div>
+  </div>
+</div>
+`;

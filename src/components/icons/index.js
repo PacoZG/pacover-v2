@@ -1,0 +1,12 @@
+export { default as AwsLogo } from "./AwsLogo";
+export { default as Css } from "./Css";
+export { default as Cypress } from "./Cypress";
+export { default as Docker } from "./DockerLogo";
+export { default as Github } from "./Github";
+export { default as Java } from "./Java";
+export { default as Redux } from "./Redux";
+export { default as Spiner } from "./Spiner";
+export { default as Spinner } from "./Spinner";
+export { default as Sql } from "./SQLLogo";
+export { default as TailwindCss } from "./TailwindCss";
+export { default as Typescript } from "./Typescript";

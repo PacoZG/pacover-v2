@@ -1,0 +1,139 @@
+{
+  "stickers": {
+    "who": "QUIÉN SOY",
+    "skills": "MIS HABILIDADES",
+    "strengths": "MIS FORTALEZAS",
+    "education": "EDUCACIÓN",
+    "experience": "EXPERIENCIA LABORAL"
+  },
+  "contact": {
+    "name": "Nombre Completo",
+    "message": "Mensaje",
+    "message-sent": "Me pondré en contacto contigo lo antes posible.",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "sent": "Mensaje enviado",
+    "characters": "Caracteres ",
+    "invalid-email": "Formato de correo inválido"
+  },
+  "Header": {
+    "presentation": "Presentación",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "contact": "Contacto"
+  },
+  "Footer": {
+    "developed-by": "DESARROLLADO POR",
+    "share-cv": "COMPARTIR MI SITIO WEB"
+  },
+  "Presentation": {
+    "line0": "¡Hola! SOY ",
+    "line1": "Soy un desarrollador Full Stack mexicano radicado en Finlandia desde septiembre de 2014.",
+    "line2": "Comencé mis estudios de Ingeniería de Comunicaciones en España y me mudé a Finlandia en 2014 como estudiante Erasmus en la Universidad Aalto."
+  },
+  "skills": {
+    "multitask": "Capacidad multitarea",
+    "engaged": "Comprometido, persistente y enfocado",
+    "lang1": "Lengua materna: Español",
+    "lang2": "Dominio del inglés",
+    "info-click": "Haz clic en el logo para ver el certificado",
+    "click-for-certificate": "Ver Certificado"
+  },
+  "strengths": {
+    "strength1": "Comprometido y Perseverante",
+    "line1_1": "Estas fortalezas fueron cruciales para completar con éxito el ",
+    "line1_2": "Curso Full Stack",
+    "line1_3": ", lo que me proporcionó las habilidades para una carrera en el desarrollo web/software. A lo largo de este desafiante programa, obtuve resultados sólidos de manera consistente, incluso al enfrentarme a tecnologías completamente nuevas, demostrando paciencia, dedicación y una gran ética de trabajo.",
+    "strength2": "Orientado al Servicio al Cliente",
+    "line2": "Aprovechando una amplia experiencia previa, destaco en la comunicación empática y accesible, asegurando una clara comprensión de las necesidades del cliente.",
+    "strength3": "Experiencia Docente",
+    "line3": "Mi experiencia como profesor de batería desarrolló mi capacidad para explicar conceptos y técnicas complejas de forma sencilla. Esta habilidad es invaluable para articular claramente servicios y funcionalidades a los clientes en la industria tecnológica.",
+    "line4_1": "Descubre mis resultados de la prueba ",
+    "line4_2": "aquí",
+    "line4_3": "."
+  },
+  "education": {
+    "tool-tip-msg": "Visitar el sitio web de la escuela",
+    "line12": "DevOps con Kubernetes (MOOC.fi)",
+    "line11": "Curso introductorio que abarca Kubernetes (K3s, GKE) y CI/CD para implementar y gestionar aplicaciones, desarrollado por la Universidad de Helsinki en colaboración con Unity.",
+    "line10": "DevOps con Docker (MOOC.fi)",
+    "line9": "Curso introductorio sobre la contenerización utilizando Docker y Docker Compose para una implementación eficiente de aplicaciones, desarrollado por la Universidad de Helsinki en colaboración con Eficode.",
+    "line8": "Curso Full Stack Open (MOOC.fi)",
+    "line7": "Programa integral (AGO 2020 - JUL 2021) de la Universidad de Helsinki, que cubre el desarrollo web moderno: JavaScript, React, Node.js (RESTful/GraphQL), TypeScript, React Native e Integración Continua. En cooperación con Houston Inc, Terveystalo, Elisa, K-ryhmä, Unity Technologies y Konecranes.",
+    "line6": "Cursos de Maestría en Ingeniería de Comunicaciones",
+    "line5": "Estudiante de Intercambio Erasmus, 2014-2015",
+    "line4": "@Universidad Aalto – Escuela de Ingeniería Eléctrica",
+    "line3": "Licenciatura en Ingeniería de Telecomunicaciones",
+    "line2": "Completado el 78% de los estudios (4º año académico).",
+    "line1": "@Universidad Politécnica de Cartagena - Escuela Técnica Superior de Ingeniería de Telecomunicación"
+  },
+  "experience": {
+    "company4": "Houston Inc.",
+    "period4": "SEPTIEMBRE 2021 - ACTUALIDAD",
+    "position4": "Consultor - Desarrollador Full Stack/DevOps",
+    "responsabilities4": "Apoyé a clientes en el mantenimiento y actualización de aplicaciones/sitios web, asegurando una funcionalidad óptima y la satisfacción del cliente.\nAdquirí experiencia práctica y desarrollé habilidades en múltiples tecnologías, incluyendo AWS (Lambda, DynamoDB, Route53, CloudFormation, CloudWatch, CloudFront), Docker, Kubernetes (GKE), Google Cloud, Auth0, Datadog, Helm, Istio y Terraform.\nContribuí a diversos proyectos de clientes, específicamente para Eltel Networks (entorno de gestión de recursos), Veikkaus Oy (soluciones de red, proxy y fiabilidad) y Spinverse (entorno de motor de búsqueda de financiación).\nUtilicé un robusto stack tecnológico que incluye React, Node.js, JavaScript, TypeScript, MobX, Express, PostgreSQL, MySQL, Git, Bitbucket, GitLab, REST, Eslint, Prettier, SCSS y Java.",
+    "company3": "Hotel Kämp",
+    "period3": "SEPTIEMBRE 2015 - AGOSTO 2020",
+    "position3": "Camarero",
+    "responsabilities3": "Proporcioné un servicio completo de desayuno, almuerzo, cena y habitaciones, asegurando constantemente experiencias positivas para los huéspedes.\nGestioné diversas necesidades y preferencias de los huéspedes en un entorno de hostelería de alto nivel.",
+    "company2": "Varios Restaurantes y Hoteles",
+    "position2": "Camarero, Recepcionista y Personal de Cocina",
+    "period2": "ENERO 2007 - AGOSTO 2020",
+    "responsabilities2": "Desempeñé diversos roles, incluyendo supervisor de camareros, cocinero y lavaplatos.\nDesarrollé sólidas habilidades de comunicación y servicio al cliente a través de la interacción directa y la comprensión de las necesidades del cliente.",
+    "company1": "Varios Bares, Restaurantes, Conciertos y Tiendas de Música",
+    "period1": "ENERO 1998 - AGOSTO 2011",
+    "position1": "Baterista Profesional / Profesor de Batería",
+    "responsabilities1": "Trabajé como baterista profesional, liderando y actuando en varias bandas.\nEnseñé batería a tiempo parcial, desarrollando habilidades para simplificar conceptos complejos y adaptar métodos de enseñanza a estilos de aprendizaje individuales.",
+    "tool-tip-msg": "Visitar el sitio web de la empresa"
+  },
+  "freelance": {
+    "hero": {
+      "headline": "Desarrollo Freelance Full Stack",
+      "subheadline": "Tu visión, mi código. Desde sitios web simples hasta infraestructura robusta.",
+      "button": "Empezar un Proyecto"
+    },
+    "services": {
+      "headline": "Mis Servicios",
+      "simple_sites": {
+        "title": "Sitios Web Simples y One-Pagers",
+        "description": "Lanza rápidamente tu presencia en línea con un sitio web profesional y responsive de una sola página o una landing page dinámica adaptada a tus necesidades."
+      },
+      "full_stack_apps": {
+        "title": "Aplicaciones Full Stack Personalizadas",
+        "description": "Construcción de aplicaciones web robustas, escalables y seguras con backends personalizados, bases de datos e infraestructura en la nube integrada."
+      },
+      "devops": {
+        "title": "Soluciones DevOps y en la Nube",
+        "description": "Diseño y gestión de infraestructuras en la nube resilientes. Experiencia en Docker, Kubernetes y plataformas como GCP y AWS para una implementación sin interrupciones."
+      },
+      "maintenance": {
+        "title": "Mantenimiento y Optimización",
+        "description": "Proporciono soporte continuo, corrección de errores y ajuste de rendimiento para que tus aplicaciones existentes funcionen de manera fluida y eficiente."
+      }
+    },
+    "process": {
+      "headline": "Mi Proceso",
+      "discovery": {
+        "title": "Descubrimiento y Planificación",
+        "description": "Comenzamos con una conversación para entender tus objetivos, visión y requisitos técnicos. Esto nos lleva a una hoja de ruta clara del proyecto."
+      },
+      "development": {
+        "title": "Desarrollo e Iteración",
+        "description": "A través del desarrollo ágil, construyo tu proyecto, proporcionando actualizaciones periódicas e incorporando tus comentarios para asegurar que cumpla tus expectativas."
+      },
+      "deployment": {
+        "title": "Despliegue y Lanzamiento",
+        "description": "Gestiono el despliegue sin problemas de tu aplicación en la nube, asegurando que sea segura, escalable y esté lista para los usuarios."
+      },
+      "support": {
+        "title": "Soporte y Mantenimiento",
+        "description": "Después del lanzamiento, estoy disponible para soporte y mantenimiento continuo para garantizar que tu aplicación siga siendo una solución fiable y de alto rendimiento."
+      }
+    },
+    "cta": {
+      "headline": "¿Listo para dar vida a tu idea?",
+      "subheadline": "Hablemos de tu proyecto y convirtamos tu visión en realidad.",
+      "button": "Ponte en Contacto"
+    }
+  }
+}

@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Paco — aka [Sirpacoder][website]
 
-## Getting Started
+### 💻 Full-Stack Developer | DevOps-Oriented Engineer | Father | Problem-Solver
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🎯 I’m a developer with a background in **Communications Engineering**, passionate about crafting web apps and managing cloud-native infrastructure.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🌍 Based in Finland 🇫🇮 | Live in Spain 🇪🇸 for 10 years | Originally from Mexico 🇲🇽
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌐 Check out my portfolio → [pacoderzavala.com][website]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔧 Current Focus
 
-To learn more about Next.js, take a look at the following resources:
+- 🚢 DevOps practices with **Kubernetes**, **Docker**, **Terraform**, and **GitOps**  
+- ☁️ Hands-on with **Google Cloud Platform (GCP)** but also very familiarised with **AWS**  
+- 🧠 Refining **TDD**, and embracing scalable architecture  
+- 🧭 2025 Goal: Grow as a cloud-native, DevOps-first engineer
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tech Stack
 
-## Deploy on Vercel
+### 🧩 Languages & Frameworks
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img src="https://img.shields.io/badge/JavaScript-black?style=flat&logo=javascript" />
+<img src="https://img.shields.io/badge/TypeScript-black?style=flat&logo=typescript" />
+<img src="https://img.shields.io/badge/React-black?style=flat&logo=react" />
+<img src="https://img.shields.io/badge/Node.js-black?style=flat&logo=node.js" />
+<img src="https://img.shields.io/badge/GraphQL-black?style=flat&logo=graphql" />
+<img src="https://img.shields.io/badge/SQL-black?style=flat&logo=sql" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### ⚙️ DevOps & Cloud
+
+<img src="https://img.shields.io/badge/Kubernetes-black?style=flat&logo=kubernetes" />
+<img src="https://img.shields.io/badge/Docker-black?style=flat&logo=docker" />
+<img src="https://img.shields.io/badge/Terraform-black?style=flat&logo=terraform" />
+<img src="https://img.shields.io/badge/GitHub_Actions-black?style=flat&logo=github-actions" />
+<img src="https://img.shields.io/badge/AWS-black?style=flat&logo=amazonaws" />
+<img src="https://img.shields.io/badge/GCP-black?style=flat&logo=googlecloud" />
+<img src="https://img.shields.io/badge/Ubuntu-black?style=flat&logo=ubuntu" />
+
+---
+
+## 📦 Tooling & Practices
+
+- 🎨 Styling: **Tailwind CSS**, and raw CSS when needed  
+- 🔄 Code formatting: **Prettier** (`npm run fix-code-style`)  
+- 🌐 Routing: **React Router v7**  
+- 🌍 Translations: **i18next**   
+- 🔗 Sharing: **react-share**
+
+---
+
+## 🌐 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)][linkedin]  
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][instagram]  
+📫 Or reach out at [pacoderzavala.com][website]
+
+---
+
+[website]: https://pacoderzavala.com
+[linkedin]: https://www.linkedin.com/in/francisco-zavala/
+[instagram]: https://www.instagram.com/sirpacoder

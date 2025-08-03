@@ -1,0 +1,843 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing header Snapshot of the Skills component 1`] = `
+<div
+  className="flex flex-col items-center lg:gap-8 justify-center py-3 px-0 sm:py-6 sm:px-2 bg-gray-500 dark:bg-gray-900 transition duration-500 bg-opacity-70 dark:bg-opacity-70"
+>
+  <div
+    className="flex flex-col justify-center  border-double border-b-2 border-gray-700 dark:border-gray-500 pt-0 p-2 lg:w-full transition duration-500"
+  >
+    <div
+      className="hidden md:flex flex-col space-y-9"
+    >
+      <div
+        className="flex items-center justify-evenly gap-10"
+      >
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="JS"
+            className="skill-logo "
+            src="https://img.icons8.com/nolan/96/javascript.png"
+          />
+          <p
+            className="text-gray-200 dark:text-yellow-500 transition duration-500"
+          >
+            Javascript
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="React"
+            className="skill-logo h-20 w-20 mb-3 -z-20"
+            src="https://img.icons8.com/officel/80/000000/react.png"
+          />
+          <p
+            className="text-gray-200 dark:text-blue-300 transition duration-500"
+          >
+            React
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <svg
+            className="skill-logo mb-3"
+          >
+            redux.svg
+          </svg>
+          <p
+            className="text-gray-200 dark:text-purple-400 transition duration-500 -mt-4"
+          >
+            Redux
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117640/ak5pcxrhwyigv9z0nqql.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="React"
+            className="skill-logo -z-20 "
+            src="https://img.icons8.com/color/48/000000/graphql.png"
+          />
+          <p
+            className="text-gray-200 dark:text-pink-500 transition duration-500"
+          >
+            GraphQL
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117641/ffbedqhkfwmbaitpjrwx.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="React"
+            className="skill-logo"
+            src="https://img.icons8.com/nolan/96/react-native.png"
+          />
+          <p
+            className="text-gray-200 dark:text-pink-700 transition duration-500"
+          >
+            React-Native
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <svg
+            className=" skill-logo rounded-sm h-16 w-16 mb-0 mt-5"
+          >
+            typescript.svg
+          </svg>
+          <p
+            className="text-gray-200 dark:text-yellow-500 transition duration-500 mt-3"
+          >
+            Typescript
+          </p>
+        </a>
+      </div>
+      <div
+        className="flex items-center justify-evenly gap-20"
+      >
+        <div
+          className="flex flex-col items-center"
+        >
+          <img
+            alt="HTML"
+            className="skill-logo  mb-2"
+            src="https://img.icons8.com/color/344/html-5--v1.png"
+          />
+          <p
+            className="text-gray-200 dark:text-purple-400 transition duration-500"
+          >
+            HTML
+          </p>
+        </div>
+        <div
+          className="flex flex-col items-center"
+        >
+          <svg
+            className="skill-logo  mb-3"
+          >
+            css.svg
+          </svg>
+          <p
+            className="text-gray-200 dark:text-purple-400 transition duration-500"
+          >
+            CSS
+          </p>
+        </div>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="React"
+            className="skill-logo -z-20"
+            src="https://img.icons8.com/color/96/000000/mongodb.png"
+          />
+          <p
+            className="text-gray-200 dark:text-green-400 transition duration-500"
+          >
+            MongoDB
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            alt="React"
+            className="skill-logo bg-green-400 p-3 -z-20"
+            src="https://img.icons8.com/color/96/000000/nodejs.png"
+          />
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117640/zomoudnr2mriz6zvdetq.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <svg
+            className="skill-logo h-32 w-16 -mb-3 -mt-3 -z-20"
+          >
+            sql.svg
+          </svg>
+        </a>
+      </div>
+      <div
+        className="flex items-center justify-evenly gap-16"
+      >
+        <div
+          className="flex flex-col items-center"
+        >
+          <svg
+            className="skill-logo h-36"
+          >
+            java.svg
+          </svg>
+          <div
+            className="flex gap-2 "
+          >
+            <a
+              className="text-gray-300 underline transition duration-200 hover:text-indigo-600"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118753/rtibuwlmtzmdtr35u2gw.png"
+              skill-tool-tip-msg="Java Programming I"
+              target="blank"
+            >
+              Cert I
+            </a>
+            <a
+              className="text-gray-300 underline transition duration-200 hover:text-indigo-600"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118770/v7jfhsjvhla0pyw1p1dr.png"
+              skill-tool-tip-msg="Java Programming II"
+              target="blank"
+            >
+              Cert II
+            </a>
+          </div>
+        </div>
+        <div
+          className="flex flex-col items-center"
+        >
+          <img
+            alt="tailwind-logo"
+            className="skill-logo h-16 mb-3"
+            src="tailwind-css.png"
+          />
+          <p
+            className="text-gray-200 dark:text-blue-300 transition duration-500"
+          >
+            Tailwindcss
+          </p>
+        </div>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <svg
+            className="skill-logo h-20 -z-20 "
+          >
+            cypress.svg
+          </svg>
+          <p
+            className="text-gray-200 dark:text-gray-50 transition duration-500"
+          >
+            Cypress.io
+          </p>
+        </a>
+        <a
+          className="flex flex-col items-center"
+          href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <svg
+            className="skill-logo  p-3 bg-transparent bg-opacity-10"
+          >
+            docker.svg
+          </svg>
+          <p
+            className=" text-center text-gray-200 dark:text-blue-700 transition duration-500"
+          >
+            Docker
+          </p>
+        </a>
+        <div
+          className="flex flex-col items-center"
+        >
+          <svg
+            className="skill-logo  p-3 bg-white"
+          >
+            aws-logo.svg
+          </svg>
+        </div>
+        <a
+          className="flex flex-col items-center mt-4"
+          href="https://datadog.docebosaas.com/share/v1/gamification/assigned_badge/942dde0a-211f-4e54-b9ea-fe148117eec0/shared?lang=en&t=1689281055089"
+          skill-tool-tip-msg="Click here to see certificate"
+          target="blank"
+        >
+          <img
+            className="skill-logo p-1 bg-transparent bg-opacity-10 -z-10 "
+            src="https://cdn5.dcbstatic.com/files/d/a/datadog_docebosaas_com/assets/badges/original/6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png"
+          />
+          <p
+            className=" text-center text-gray-200 dark:text-green-500 transition duration-500"
+          >
+            Datadog
+          </p>
+        </a>
+      </div>
+    </div>
+    <div
+      className="md:hidden block"
+    >
+      <div
+        className="flex flex-col items-center space-y-3 sm:space-y-8 md:space-y-12"
+      >
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <img
+              alt="JS"
+              className="skill-logo p-2 "
+              src="https://img.icons8.com/nolan/96/javascript.png"
+            />
+            <p
+              className="text-sm text-gray-200 dark:text-yellow-500 transition duration-500"
+            >
+              Javascript
+            </p>
+          </a>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <img
+              alt="React"
+              className="skill-logo p-2 "
+              src="https://img.icons8.com/officel/80/000000/react.png"
+            />
+            <p
+              className="text-sm text-gray-200 dark:text-blue-300 transition duration-500"
+            >
+              React
+            </p>
+          </a>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <svg
+              className="skill-logo "
+            >
+              redux.svg
+            </svg>
+            <p
+              className="text-sm text-gray-200 dark:text-purple-700 transition duration-500"
+            >
+              Redux
+            </p>
+          </a>
+        </div>
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117641/ffbedqhkfwmbaitpjrwx.png"
+            target="blank"
+          >
+            <img
+              alt="React"
+              className="skill-logo  "
+              src="https://img.icons8.com/nolan/96/react-native.png"
+            />
+            <p
+              className="text-sm text-gray-200 text-center dark:text-pink-800 transition duration-500"
+            >
+              React-Native
+            </p>
+          </a>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <img
+              alt="React"
+              className="skill-logo "
+              src="https://img.icons8.com/color/96/000000/mongodb.png"
+            />
+            <p
+              className="text-sm text-gray-200 dark:text-green-400 transition duration-500"
+            >
+              MongoDB
+            </p>
+          </a>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117640/ak5pcxrhwyigv9z0nqql.png"
+            target="blank"
+          >
+            <img
+              alt="React"
+              className="skill-logo "
+              src="https://img.icons8.com/color/48/000000/graphql.png"
+            />
+            <p
+              className="text-sm text-gray-200 dark:text-pink-500 transition duration-500"
+            >
+              GraphQL
+            </p>
+          </a>
+        </div>
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <img
+              alt="React"
+              className="skill-logo text-gray-200 bg-green-400 p-2 md:h-24 "
+              src="https://img.icons8.com/color/96/000000/nodejs.png"
+            />
+          </a>
+          <div
+            className="flex flex-col items-center"
+          >
+            <img
+              alt="tailwind-logo"
+              className="skill-logo h-12  mb-2"
+              src="tailwind-css.png"
+            />
+            <p
+              className="text-sm text-gray-200 dark:text-blue-300 transition duration-500"
+            >
+              Tailwindcss
+            </p>
+          </div>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+            target="blank"
+          >
+            <svg
+              className="skill-logo"
+            >
+              cypress.svg
+            </svg>
+            <p
+              className="text-sm text-gray-200 dark:text-gray-300 transition duration-500"
+            >
+              Cypress.io
+            </p>
+          </a>
+        </div>
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png"
+            target="blank"
+          >
+            <svg
+              className="skill-logo h-14 w-14 my-2 rounded-sm "
+            >
+              typescript.svg
+            </svg>
+            <p
+              className="text-sm text-gray-200 dark:text-green-400 transition duration-500"
+            >
+              Typescript
+            </p>
+          </a>
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png"
+            target="blank"
+          >
+            <svg
+              className="skill-logo my-2 bg-opacity-10"
+            >
+              docker.svg
+            </svg>
+            <p
+              className=" text-center text-gray-200 dark:text-blue-700 transition duration-500 w-16"
+            >
+              Docker
+            </p>
+          </a>
+          <div
+            className="flex flex-col items-center"
+          >
+            <svg
+              className="skill-logo p-3 my-2 bg-white"
+            >
+              aws-logo.svg
+            </svg>
+          </div>
+        </div>
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <a
+            className="flex flex-col items-center"
+            href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117640/zomoudnr2mriz6zvdetq.png"
+            target="blank"
+          >
+            <svg
+              className="skill-logo h-24 w-12 -mb-3 -mt-3"
+            >
+              sql.svg
+            </svg>
+          </a>
+          <div
+            className="flex flex-col items-center"
+          >
+            <img
+              alt="HTML"
+              className="skill-logo "
+              src="https://img.icons8.com/color/344/html-5--v1.png"
+            />
+            <p
+              className=" text-center text-gray-200 dark:text-yellow-800 transition duration-500"
+            >
+              HTML
+            </p>
+          </div>
+          <div
+            className="flex flex-col items-center"
+          >
+            <svg
+              className="skill-logo bg-transparent p-1"
+            >
+              css.svg
+            </svg>
+            <p
+              className=" text-center text-gray-200 dark:text-blue-700 transition duration-500 w-16"
+            >
+              CSS
+            </p>
+          </div>
+        </div>
+        <div
+          className="flex items-center justify-evenly space-x-12"
+        >
+          <div
+            className="flex flex-col items-center"
+          >
+            <svg
+              className="skill-logo h-28"
+            >
+              java.svg
+            </svg>
+            <div
+              className="flex gap-3 "
+            >
+              <a
+                className="text-gray-300 underline transition duration-200 hover:text-indigo-600"
+                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118753/rtibuwlmtzmdtr35u2gw.png"
+                skill-tool-tip-msg="Java Programming I"
+                target="blank"
+              >
+                Cert I
+              </a>
+              <a
+                className="text-gray-300 underline transition duration-200 hover:text-indigo-600"
+                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118770/v7jfhsjvhla0pyw1p1dr.png"
+                skill-tool-tip-msg="Java Programming II"
+                target="blank"
+              >
+                Cert II
+              </a>
+            </div>
+          </div>
+          <a
+            className="flex flex-col items-center mt-4"
+            href="https://datadog.docebosaas.com/share/v1/gamification/assigned_badge/942dde0a-211f-4e54-b9ea-fe148117eec0/shared?lang=en&t=1689281055089"
+            skill-tool-tip-msg="Click here to see certificate"
+            target="blank"
+          >
+            <img
+              className="skill-logo bg-transparent bg-opacity-10"
+              src="https://cdn5.dcbstatic.com/files/d/a/datadog_docebosaas_com/assets/badges/original/6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png"
+            />
+            <p
+              className=" text-center text-gray-200 dark:text-green-500 transition duration-500"
+            >
+              Datadog
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <p
+      className="text-center pt-4 text-gray-200 dark:text-gray-300 text-xs sm:text-sm uppercase transition duration-500"
+    >
+      Click in the logo to see the related certificate
+    </p>
+  </div>
+  <div
+    className="flex flex-col md:flex-row justify-center md:w-full gap-2 sm:gap-4 md:gap-16 xl:gap-10 pt-5"
+  >
+    <div
+      className="flex flex-col xl:flex-row gap-2 sm:gap-4 md:gap-6 xl:gap-10  "
+    >
+      <div
+        className="flex items-center gap-4 md:gap-0"
+      >
+        <svg
+          aria-hidden="true"
+          className="w-5 h-5 text-gray-200 dark:text-gray-300 "
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12 4.467c0-.405.262-.75.559-1.027.276-.257.441-.584.441-.94 0-.828-.895-1.5-2-1.5s-2 .672-2 1.5c0 .362.171.694.456.953.29.265.544.6.544.994a.968.968 0 01-1.024.974 39.655 39.655 0 01-3.014-.306.75.75 0 00-.847.847c.14.993.242 1.999.306 3.014A.968.968 0 014.447 10c-.393 0-.729-.253-.994-.544C3.194 9.17 2.862 9 2.5 9 1.672 9 1 9.895 1 11s.672 2 1.5 2c.356 0 .683-.165.94-.441.276-.297.622-.559 1.027-.559a.997.997 0 011.004 1.03 39.747 39.747 0 01-.319 3.734.75.75 0 00.64.842c1.05.146 2.111.252 3.184.318A.97.97 0 0010 16.948c0-.394-.254-.73-.545-.995C9.171 15.693 9 15.362 9 15c0-.828.895-1.5 2-1.5s2 .672 2 1.5c0 .356-.165.683-.441.94-.297.276-.559.622-.559 1.027a.998.998 0 001.03 1.005c1.337-.05 2.659-.162 3.961-.337a.75.75 0 00.644-.644c.175-1.302.288-2.624.337-3.961A.998.998 0 0016.967 12c-.405 0-.75.262-1.027.559-.257.276-.584.441-.94.441-.828 0-1.5-.895-1.5-2s.672-2 1.5-2c.362 0 .694.17.953.455.265.291.601.545.995.545a.97.97 0 00.976-1.024 41.159 41.159 0 00-.318-3.184.75.75 0 00-.842-.64c-1.228.164-2.473.271-3.734.319A.997.997 0 0112 4.467z"
+          />
+        </svg>
+        <p
+          className="md:px-5 text-gray-200 dark:text-gray-300 text-xs sm:text-sm uppercase transition duration-500"
+        >
+          Ability to multitask
+        </p>
+      </div>
+      <div
+        className="flex items-center gap-4 md:gap-0"
+      >
+        <svg
+          aria-hidden="true"
+          className="w-5 h-5 text-gray-200 dark:text-gray-300 "
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10 1a6 6 0 00-3.815 10.631C7.237 12.5 8 13.443 8 14.456v.644a.75.75 0 00.572.729 6.016 6.016 0 002.856 0A.75.75 0 0012 15.1v-.644c0-1.013.762-1.957 1.815-2.825A6 6 0 0010 1zM8.863 17.414a.75.75 0 00-.226 1.483 9.066 9.066 0 002.726 0 .75.75 0 00-.226-1.483 7.553 7.553 0 01-2.274 0z"
+          />
+        </svg>
+        <p
+          className="md:px-5 text-gray-200 dark:text-gray-300 text-xs sm:text-sm uppercase transition duration-500"
+        >
+          Engaged, persistent and focused
+        </p>
+      </div>
+    </div>
+    <div
+      className="flex flex-col xl:flex-row gap-2 sm:gap-4 md:gap-6 xl:gap-10  "
+    >
+      <div
+        className="flex items-center gap-4 md:gap-0"
+      >
+        <svg
+          aria-hidden="true"
+          className="w-5 h-5 text-gray-200 dark:text-gray-300 "
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.75 2.75a.75.75 0 00-1.5 0v1.258a32.987 32.987 0 00-3.599.278.75.75 0 10.198 1.487A31.545 31.545 0 018.7 5.545 19.381 19.381 0 017 9.56a19.418 19.418 0 01-1.002-2.05.75.75 0 00-1.384.577 20.935 20.935 0 001.492 2.91 19.613 19.613 0 01-3.828 4.154.75.75 0 10.945 1.164A21.116 21.116 0 007 12.331c.095.132.192.262.29.391a.75.75 0 001.194-.91c-.204-.266-.4-.538-.59-.815a20.888 20.888 0 002.333-5.332c.31.031.618.068.924.108a.75.75 0 00.198-1.487 32.832 32.832 0 00-3.599-.278V2.75z"
+          />
+          <path
+            clipRule="evenodd"
+            d="M13 8a.75.75 0 01.671.415l4.25 8.5a.75.75 0 11-1.342.67L15.787 16h-5.573l-.793 1.585a.75.75 0 11-1.342-.67l4.25-8.5A.75.75 0 0113 8zm2.037 6.5L13 10.427 10.964 14.5h4.073z"
+            fillRule="evenodd"
+          />
+        </svg>
+        <p
+          className="md:px-5 text-gray-200 dark:text-gray-300 text-xs sm:text-sm uppercase transition duration-500"
+        >
+          Mother tongue: Spanish
+        </p>
+      </div>
+      <div
+        className="flex items-center gap-4 md:gap-0"
+      >
+        <svg
+          aria-hidden="true"
+          className="w-5 h-5 text-gray-200 dark:text-gray-300 "
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.75 2.75a.75.75 0 00-1.5 0v1.258a32.987 32.987 0 00-3.599.278.75.75 0 10.198 1.487A31.545 31.545 0 018.7 5.545 19.381 19.381 0 017 9.56a19.418 19.418 0 01-1.002-2.05.75.75 0 00-1.384.577 20.935 20.935 0 001.492 2.91 19.613 19.613 0 01-3.828 4.154.75.75 0 10.945 1.164A21.116 21.116 0 007 12.331c.095.132.192.262.29.391a.75.75 0 001.194-.91c-.204-.266-.4-.538-.59-.815a20.888 20.888 0 002.333-5.332c.31.031.618.068.924.108a.75.75 0 00.198-1.487 32.832 32.832 0 00-3.599-.278V2.75z"
+          />
+          <path
+            clipRule="evenodd"
+            d="M13 8a.75.75 0 01.671.415l4.25 8.5a.75.75 0 11-1.342.67L15.787 16h-5.573l-.793 1.585a.75.75 0 11-1.342-.67l4.25-8.5A.75.75 0 0113 8zm2.037 6.5L13 10.427 10.964 14.5h4.073z"
+            fillRule="evenodd"
+          />
+        </svg>
+        <p
+          className="md:px-5 text-gray-200 dark:text-gray-300 text-xs sm:text-sm uppercase transition duration-500"
+        >
+          Proficiency in English
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing header Snapshot of the Strenghts component 1`] = `
+<div
+  className="bg-gray-500 dark:bg-gray-900 flex flex-col items-center p-4 md:py-10 lg:py-20 transition duration-500 rounded-b-xl bg-opacity-70 dark:bg-opacity-70"
+>
+  <div
+    className="w-full sm:w-11/12 lg:w-2/3 text-center"
+  >
+    <div
+      className="p-4 border-2 border-gray-400 rounded-md bg-gray-500 mb-3"
+    >
+      <button
+        className="flex items-center justify-between w-full"
+        onClick={[Function]}
+      >
+        <p
+          className="text-2xl text-gray-900 text-left cursor-pointer pb-2 w-full "
+        >
+          Committed and Perseverant
+        </p>
+        <div
+          className="transition duration-300"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 text-gray-300"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="p-4 border-2 border-gray-400 rounded-md bg-gray-500 mb-3"
+    >
+      <button
+        className="flex items-center justify-between w-full"
+        onClick={[Function]}
+      >
+        <p
+          className="text-2xl text-gray-900 text-left cursor-pointer pb-2 w-full "
+        >
+          Customer Service Oriented
+        </p>
+        <div
+          className="transition duration-300"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 text-gray-300"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="p-4 border-2 border-gray-400 rounded-md bg-gray-500 mb-3"
+    >
+      <button
+        className="flex items-center justify-between w-full"
+        onClick={[Function]}
+      >
+        <p
+          className="text-2xl text-gray-900 text-left cursor-pointer pb-2"
+        >
+          Teaching Experience
+        </p>
+        <div
+          className="transition duration-300"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 text-gray-300"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+    <div
+      className="p-4 border-2 border-gray-400 rounded-md bg-gray-500 mb-3"
+    >
+      <button
+        className="flex items-center justify-between w-full"
+        onClick={[Function]}
+      >
+        <p
+          className="text-2xl text-gray-900 text-left cursor-pointer pb-2"
+        >
+          HIGH 
+          <span
+            className="border-2 border-yellow-300 p-1"
+          >
+            5
+          </span>
+           TEST
+        </p>
+        <div
+          className="transition duration-300"
+        >
+          <svg
+            aria-hidden="true"
+            className="h-6 w-6 text-gray-300"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clipRule="evenodd"
+              d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+              fillRule="evenodd"
+            />
+          </svg>
+        </div>
+      </button>
+    </div>
+  </div>
+</div>
+`;
