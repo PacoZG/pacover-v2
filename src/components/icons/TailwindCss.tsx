@@ -4,11 +4,10 @@ interface TailwindCssProps {
   className?: string;
 }
 
-const TailwindCss: React.FC<TailwindCssProps> = props => (
+const TailwindCss: React.FC<TailwindCssProps> = ({ ...props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width={256}
-    height={154}
+    viewBox="0 0 256 153.6"
     preserveAspectRatio="xMidYMid"
     {...props}
   >
