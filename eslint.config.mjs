@@ -2,6 +2,9 @@ import js from '@eslint/js'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
 import { FlatCompat } from '@eslint/eslintrc'
+import typescriptEslint from '@typescript-eslint/eslint-plugin'
+import tsParser from '@typescript-eslint/parser'
+import globals from 'globals'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -12,7 +15,12 @@ const compat = new FlatCompat({
 })
 
 const eslintConfig = [
-  ...compat.extends('next/core-web-vitals', 'next/typescript', 'next', 'prettier'),
+  ...compat.extends(
+    'next/core-web-vitals',
+    'next/typescript',
+    'next',
+    'prettier'
+  ),
   {
     ignores: [
       '**/dist',
@@ -24,19 +32,27 @@ const eslintConfig = [
     ],
   },
   {
-    plugins: ['next', 'prettier'],
-
+    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    plugins: {
+      'next': {},
+      'prettier': {},
+      '@typescript-eslint': typescriptEslint,
+    },
     languageOptions: {
       parser: tsParser,
-      ecmaVersion: 5,
+      ecmaVersion: 2022,
       sourceType: 'module',
       parserOptions: {
-        project: false,
-        tsconfigRootDir: '/Users/sirpacoder/projects/personal/pacoder-v2',
+        project: ['./tsconfig.json'],
+        tsconfigRootDir: __dirname,
+      },
+      globals: {
+        ...globals.browser,
+        ...globals.node,
       },
     },
-
     rules: {
+      ...typescriptEslint.configs.recommended.rules,
       'no-console': 'warn',
       'import/extensions': 'off',
       'import/prefer-default-export': 'off',
@@ -45,7 +61,6 @@ const eslintConfig = [
       'no-unused-vars': 'off',
       '@typescript-eslint/no-shadow': ['error'],
       '@typescript-eslint/no-unused-vars': ['error'],
-
       'padding-line-between-statements': [
         'error',
         {
@@ -54,7 +69,6 @@ const eslintConfig = [
           next: ['return', 'throw'],
         },
       ],
-
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/array-type': 'off',
       '@typescript-eslint/no-duplicate-enum-values': 'off',
