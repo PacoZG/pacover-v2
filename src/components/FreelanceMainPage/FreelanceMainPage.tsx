@@ -166,8 +166,9 @@ const FreelanceMainPage: React.FC = () => {
             {t('cta.button')}
           </a>
         </div>
+
         {showArrow && (
-          <div className="absolute bottom-8 transform -translate-x-1/2 animate-bounce">
+          <div className="absolute bottom-2 transform -translate-x-1/2 animate-bounce">
             <ArrowDown className="h-10 w-10 text-blue-600 dark:text-blue-300" />
           </div>
         )}

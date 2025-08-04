@@ -3,6 +3,7 @@ import ReCAPTCHA from 'react-google-recaptcha'
 import { Spinner } from '@/components/icons'
 import { ContactModel } from '@/components/Contact/ContactModel'
 import { useTranslations } from 'next-intl' // Assuming ContactModel is in the same directory
+import './contact-style.css'
 
 const Contact = () => {
   const t = useTranslations('contact')

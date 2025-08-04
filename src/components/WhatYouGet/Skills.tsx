@@ -182,6 +182,7 @@ const Skills = () => {
               >
                 Cert I
               </a>
+
               <a
                 skill-tool-tip-msg="Java Programming II"
                 className="skill-cert-link"
@@ -226,20 +227,6 @@ const Skills = () => {
           </a>
 
           {/* Kubernetes */}
-          {/*<a*/}
-          {/*  skill-tool-tip-msg={t('click-for-certificate')}*/}
-          {/*  className="skill-card bg-gray-300 dark:bg-gray-800"*/}
-          {/*  href=""*/}
-          {/*  target="_blank"*/}
-          {/*  rel="noopener noreferrer"*/}
-          {/*>*/}
-          {/*  <img*/}
-          {/*    className="skill-logo object-contain"*/}
-          {/*    src="https://img.icons8.com/color/96/000000/kubernetes.png"*/}
-          {/*    alt="Kubernetes Logo"*/}
-          {/*  />*/}
-          {/*  <p className="skill-text dark:text-blue-500">Kubernetes</p>*/}
-          {/*</a>*/}
           <div className="skill-card bg-gray-300 dark:bg-gray-800">
             <img
               className="skill-logo"
@@ -282,39 +269,38 @@ const Skills = () => {
       </div>
 
       {/* Strengths/Languages Section */}
-      <div className="flex flex-col md:flex-row justify-center md:w-full gap-4 sm:gap-6 md:gap-10 xl:gap-12 pt-8 w-full sm:w-11/12 lg:w-2/3">
-        {/* Multitask & Engaged */}
-        <div className="flex flex-col xl:flex-row gap-4 sm:gap-6 md:gap-8 xl:gap-10">
-          <div className="flex items-center gap-4 py-2 px-4 rounded-lg bg-gray-300 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-sm">
-            <PuzzlePieceIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 " />
-            <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500">
-              {t('multitask')}
-            </p>
-          </div>
-
-          <div className="flex items-center gap-4 py-2 px-4 rounded-lg bg-gray-300 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-sm">
-            <LightBulbIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 " />
-            <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500">
-              {t('engaged')}
-            </p>
-          </div>
+      {/* THIS IS THE REDESIGNED SECTION */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8 xl:gap-10 pt-8 w-full sm:w-11/12 lg:w-2/3">
+        {/* Multitask */}
+        <div className="strengths-banner">
+          <PuzzlePieceIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 mr-2 flex-shrink-0" />
+          <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500 flex-grow">
+            {t('multitask')}
+          </p>
         </div>
 
-        {/* Languages */}
-        <div className="flex flex-col xl:flex-row gap-4 sm:gap-6 md:gap-8 xl:gap-10">
-          <div className="flex items-center gap-4 py-2 px-4 rounded-lg bg-gray-300 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-sm">
-            <LanguageIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 " />
-            <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500">
-              {t('lang1')}
-            </p>
-          </div>
+        {/* Engaged */}
+        <div className="strengths-banner">
+          <LightBulbIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 mr-2 flex-shrink-0" />
+          <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500 flex-grow">
+            {t('engaged')}
+          </p>
+        </div>
 
-          <div className="flex items-center gap-4 py-2 px-4 rounded-lg bg-gray-300 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 shadow-sm">
-            <LanguageIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 " />
-            <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500">
-              {t('lang2')}
-            </p>
-          </div>
+        {/* Lang1 */}
+        <div className="strengths-banner">
+          <LanguageIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 mr-2 flex-shrink-0" />
+          <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500 flex-grow">
+            {t('lang1')}
+          </p>
+        </div>
+
+        {/* Lang2 */}
+        <div className="strengths-banner">
+          <LanguageIcon className="w-6 h-6 text-blue-600 dark:text-blue-300 mr-2 flex-shrink-0" />
+          <p className="text-gray-700 dark:text-gray-300 text-sm sm:text-base uppercase transition duration-500 flex-grow">
+            {t('lang2')}
+          </p>
         </div>
       </div>
     </div>

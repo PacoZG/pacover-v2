@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useState } from 'react' // No need for useEffect now
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
 import { Home } from 'lucide-react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid'
@@ -23,91 +23,103 @@ const Header: React.FC = () => {
   return (
     <div className="fixed z-50 w-screen bg-gray-100 dark:bg-gray-800 bg-opacity-90 dark:bg-opacity-90 backdrop-blur-sm transition duration-500 shadow-md">
       {/* Mobile Header */}
-      <div className="md:hidden flex items-center justify-between px-4 py-2">
-        {/* Home Icon instead of Name */}
-        <Link href="/" className="p-2 text-blue-700 dark:text-blue-400">
-          <Home className="h-7 w-7" />
-        </Link>
+      <div className="md:hidden flex flex-col">
+        <div className="flex items-center justify-between px-4 py-2">
+          <Link href="/" className="p-2 text-blue-700 dark:text-blue-400">
+            <Home className="h-7 w-7" />
+          </Link>
 
-        <div className="flex items-center gap-4">
-          <Toggle />
+          <div className="flex items-center gap-4">
+            <Toggle />
 
-          <button
-            className="mobile-lang-text-style"
-            onClick={useLanguageModel.handleUsersLanguage}
-          >
-            {useLanguageModel.usersLanguage === 'en' ? 'ESP' : 'ENG'}
-          </button>
+            <button
+              className="mobile-lang-text-style"
+              onClick={useLanguageModel.handleUsersLanguage}
+            >
+              {useLanguageModel.usersLanguage === 'en' ? 'ESP' : 'ENG'}
+            </button>
 
-          <button onClick={toggleMobileMenu} className="p-2">
-            {isMobileMenuOpen ? (
-              <XMarkIcon className="h-7 w-7 text-gray-800 dark:text-blue-200" />
-            ) : (
-              <Bars3Icon className="h-7 w-7 text-gray-800 dark:text-blue-200" />
-            )}
-          </button>
+            <button onClick={toggleMobileMenu} className="p-2">
+              {isMobileMenuOpen ? (
+                <XMarkIcon className="h-7 w-7 text-gray-800 dark:text-blue-200" />
+              ) : (
+                <Bars3Icon className="h-7 w-7 text-gray-800 dark:text-blue-200" />
+              )}
+            </button>
+          </div>
         </div>
 
-        {/* Mobile Menu Content (conditionally rendered and animated) */}
         {isMobileMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-gray-100 dark:bg-gray-800 bg-opacity-95 dark:bg-opacity-95 shadow-lg flex flex-col items-center py-4 space-y-3 animation-slide-down">
-            <Link
-              className="mobile-nav-link"
-              href="/cv/presentation"
+          <>
+            {/* The full-screen overlay/background button */}
+            <button
+              id="langBackground-button"
               onClick={toggleMobileMenu}
+              className="fixed inset-0 w-screen h-screen bg-black opacity-50 z-40"
+            ></button>
+
+            {/* Mobile Menu Content (conditionally rendered and animated) */}
+            <div
+              id="mobile-menu-content"
+              className="absolute top-0 left-0 w-full bg-gray-100 dark:bg-gray-800 bg-opacity-95 dark:bg-opacity-95 shadow-lg flex flex-col items-center py-4 space-y-3 animation-slide-down z-50"
             >
-              {t('presentation')}
-            </Link>
-
-            <Link
-              className="mobile-nav-link"
-              href="/cv/skills_strenghts"
-              onClick={toggleMobileMenu}
-            >
-              {t('skills')}
-            </Link>
-
-            <Link
-              className="mobile-nav-link"
-              href="/cv/experience"
-              onClick={toggleMobileMenu}
-            >
-              {t('experience')}
-            </Link>
-
-            <div className="flex items-center gap-4 pt-3 border-t border-gray-300 dark:border-gray-700 w-3/4 justify-center">
-              <a
-                href="https://www.linkedin.com/in/francisco-zavala/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                className="mobile-nav-link"
+                href="/cv/presentation"
+                onClick={toggleMobileMenu}
               >
-                <LinkedinIcon size={31} borderRadius={10} />
-              </a>
+                {t('presentation')}
+              </Link>
 
-              <a
-                href="https://github.com/PacoZG"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                className="mobile-nav-link"
+                href="/cv/skills_strenghts"
+                onClick={toggleMobileMenu}
               >
-                <GitHub className="bg-gray-300 h-8 w-8 rounded-full dark:bg-gray-700" />
-              </a>
+                {t('skills')}
+              </Link>
 
-              <a
-                href="https://wa.me/358449888032?text=I%20would%20love%20to%20contact%20you%20for%20a%20possible%20interview."
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                className="mobile-nav-link"
+                href="/cv/experience"
+                onClick={toggleMobileMenu}
               >
-                <WhatsappIcon size={31} borderRadius={10} />
-              </a>
+                {t('experience')}
+              </Link>
+
+              <div className="flex items-center gap-4 pt-3 border-t border-gray-300 dark:border-gray-700 w-3/4 justify-center">
+                <a
+                  href="https://www.linkedin.com/in/francisco-zavala/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <LinkedinIcon size={31} borderRadius={10} />
+                </a>
+
+                <a
+                  href="https://github.com/PacoZG"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <GitHub className="bg-gray-300 h-8 w-8 rounded-full dark:bg-gray-700" />
+                </a>
+
+                <a
+                  href="https://wa.me/358449888032?text=I%20would%20love%20to%20contact%20you%20for%20a%20possible%20interview."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <WhatsappIcon size={31} borderRadius={10} />
+                </a>
+              </div>
             </div>
-          </div>
+          </>
         )}
       </div>
 
       {/* Desktop Header */}
       <div className="hidden md:flex items-center justify-between px-8 py-3">
         <div className="flex items-center gap-2">
-          {/* Home Icon instead of Name */}
           <Link href="/" className="p-2 text-blue-700 dark:text-blue-400">
             <Home className="h-8 w-8" />
           </Link>
@@ -158,7 +170,7 @@ const Header: React.FC = () => {
             className="pc-lang-text-style"
             onClick={useLanguageModel.handleUsersLanguage}
           >
-            {useLanguageModel.usersLanguage === 'es' ? 'ENG' : 'ESP'}
+            {useLanguageModel.usersLanguage === 'en' ? 'ESP' : 'ENG'}
           </button>
         </div>
       </div>
