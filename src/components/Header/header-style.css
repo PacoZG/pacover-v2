@@ -7,6 +7,10 @@
     @apply text-gray-800 dark:text-blue-200 text-lg font-medium py-2 px-4 w-full text-center transition duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-md;
 }
 
+.active-mobile-nav-link {
+    @apply  bg-blue-200 dark:bg-blue-700 text-lg font-medium py-2 px-4 w-full text-center transition duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 rounded-md;
+}
+
 .desktop-nav-link {
     @apply text-gray-700 dark:text-blue-300 text-lg font-medium px-4 py-2 transition duration-300 hover:text-blue-700 dark:hover:text-blue-400 hover:underline;
 }

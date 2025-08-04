@@ -4,17 +4,20 @@ import React, { useState } from 'react' // No need for useEffect now
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
 import { Home } from 'lucide-react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid'
-import './header-style.css'
 import { LanguageModel } from '@/utils/language/LanguageModel'
 import Toggle from '@/components/Toggle'
 import GitHub from '../icons/Github'
 import { useTranslations } from 'next-intl'
 import { Link } from '@/i18n/navigation'
+import './header-style.css'
+import { usePathname } from 'next/navigation'
 
 const Header: React.FC = () => {
   const t = useTranslations('Header')
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)
   const useLanguageModel = LanguageModel()
+
+  const pathname = usePathname()
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
@@ -23,8 +26,8 @@ const Header: React.FC = () => {
   return (
     <div className="fixed z-50 w-screen bg-gray-100 dark:bg-gray-800 bg-opacity-90 dark:bg-opacity-90 backdrop-blur-sm transition duration-500 shadow-md">
       {/* Mobile Header */}
-      <div className="md:hidden flex flex-col">
-        <div className="flex items-center justify-between px-4 py-2">
+      <div className="md:hidden relative flex flex-col ">
+        <div className="flex items-center  justify-between px-4 py-2">
           <Link href="/" className="p-2 text-blue-700 dark:text-blue-400">
             <Home className="h-7 w-7" />
           </Link>
@@ -39,7 +42,12 @@ const Header: React.FC = () => {
               {useLanguageModel.usersLanguage === 'en' ? 'ESP' : 'ENG'}
             </button>
 
-            <button onClick={toggleMobileMenu} className="p-2">
+            <button
+              onClick={() => {
+                setIsMobileMenuOpen(!isMobileMenuOpen)
+              }}
+              className="p-2"
+            >
               {isMobileMenuOpen ? (
                 <XMarkIcon className="h-7 w-7 text-gray-800 dark:text-blue-200" />
               ) : (
@@ -54,17 +62,23 @@ const Header: React.FC = () => {
             {/* The full-screen overlay/background button */}
             <button
               id="langBackground-button"
-              onClick={toggleMobileMenu}
+              onClick={() => {
+                setIsMobileMenuOpen(!isMobileMenuOpen)
+              }}
               className="fixed inset-0 w-screen h-screen bg-black opacity-50 z-40"
             ></button>
 
             {/* Mobile Menu Content (conditionally rendered and animated) */}
             <div
               id="mobile-menu-content"
-              className="absolute top-0 left-0 w-full bg-gray-100 dark:bg-gray-800 bg-opacity-95 dark:bg-opacity-95 shadow-lg flex flex-col items-center py-4 space-y-3 animation-slide-down z-50"
+              className="absolute top-14 left-0 w-full bg-gray-100 dark:bg-gray-800 bg-opacity-95 dark:bg-opacity-95 shadow-lg flex flex-col items-center py-4 space-y-3 animation-slide-down z-50"
             >
               <Link
-                className="mobile-nav-link"
+                className={
+                  pathname.includes('presentation')
+                    ? 'active-mobile-nav-link'
+                    : 'mobile-nav-link'
+                }
                 href="/cv/presentation"
                 onClick={toggleMobileMenu}
               >
@@ -72,7 +86,11 @@ const Header: React.FC = () => {
               </Link>
 
               <Link
-                className="mobile-nav-link"
+                className={
+                  pathname.includes('skills_strenghts')
+                    ? 'active-mobile-nav-link'
+                    : 'mobile-nav-link'
+                }
                 href="/cv/skills_strenghts"
                 onClick={toggleMobileMenu}
               >
@@ -80,7 +98,11 @@ const Header: React.FC = () => {
               </Link>
 
               <Link
-                className="mobile-nav-link"
+                className={
+                  pathname.includes('experience')
+                    ? 'active-mobile-nav-link'
+                    : 'mobile-nav-link'
+                }
                 href="/cv/experience"
                 onClick={toggleMobileMenu}
               >
