@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Health component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="page-layout"
+  >
+    <div
+      class="flex justify-center w-full py-8"
+    >
+      <div
+        class="sticky-header rounded-t-xl"
+      >
+        ok
+      </div>
+    </div>
+  </div>
+</div>
+`;

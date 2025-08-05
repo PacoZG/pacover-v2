@@ -1,10 +1,7 @@
-/* eslint-disabled */
 import React from 'react'
 import { render } from '@testing-library/react'
 import { describe, test, expect, vi } from 'vitest'
-import Contact from '@/components/Contact/index'
-
-window.scrollTo = vi.fn()
+import FreelanceMainPage from './FreelanceMainPage'
 
 vi.mock('next-intl', () => ({
   useTranslations: () => {
@@ -13,9 +10,10 @@ vi.mock('next-intl', () => ({
     }
   },
 }))
-describe('Contact component', () => {
+
+describe('FreelanceMainPage', () => {
   test('matches the snapshot', () => {
-    const { container } = render(<Contact />)
+    const { container } = render(<FreelanceMainPage />)
 
     expect(container).toMatchSnapshot()
   })

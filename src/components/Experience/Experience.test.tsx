@@ -1,8 +1,7 @@
-/* eslint-disabled */
 import React from 'react'
 import { render } from '@testing-library/react'
 import { describe, test, expect, vi } from 'vitest'
-import Contact from '@/components/Contact/index'
+import Experience from '@/components/Experience/index'
 
 window.scrollTo = vi.fn()
 
@@ -13,9 +12,10 @@ vi.mock('next-intl', () => ({
     }
   },
 }))
-describe('Contact component', () => {
+
+describe('Experience component', () => {
   test('matches the snapshot', () => {
-    const { container } = render(<Contact />)
+    const { container } = render(<Experience />)
 
     expect(container).toMatchSnapshot()
   })

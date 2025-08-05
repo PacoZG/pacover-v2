@@ -2,7 +2,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import { describe, test, expect, vi } from 'vitest'
-import Contact from '@/components/Contact/index'
+import DesktopView from '@/components/Header/DesktopView/DesktopView'
 
 window.scrollTo = vi.fn()
 
@@ -13,9 +13,9 @@ vi.mock('next-intl', () => ({
     }
   },
 }))
-describe('Contact component', () => {
+describe('DesktopView component', () => {
   test('matches the snapshot', () => {
-    const { container } = render(<Contact />)
+    const { container } = render(<DesktopView />)
 
     expect(container).toMatchSnapshot()
   })

@@ -1,0 +1,85 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Contact component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="transform duration-500 pt-2 p-4 sm:p-4 pb-0 w-full sm:w-3/5 lg:w-8/12"
+  >
+    <form>
+      <div
+        class="flex flex-col items-center justify-center gap-6 p-3 sm:p-5 md:p-7 bg-gray-300 dark:bg-gray-800 rounded-xl shadow-lg transition duration-500"
+      >
+        <div
+          class="relative flex flex-col sm:flex-row justify-between items-center gap-6 w-full"
+        >
+          <input
+            class="contact-input-style"
+            name="name"
+            placeholder="name"
+            required=""
+            type="text"
+            value=""
+          />
+          <div
+            class="relative flex flex-col w-full"
+          >
+            <input
+              class="contact-input-style"
+              name="email"
+              placeholder="Email"
+              required=""
+              type="email"
+              value=""
+            />
+            <label
+              class="absolute -bottom-6 left-2 text-sm text-red-700 dark:text-red-400 font-medium"
+            />
+          </div>
+        </div>
+        <textarea
+          class="contact-input-style h-24 resize-y"
+          maxlength="500"
+          minlength="50"
+          name="message"
+          placeholder="message"
+          required=""
+          type="text"
+        />
+        <div
+          class="flex flex-col ml:flex-row ml:items-center justify-evenly ml:justify-between w-full"
+        >
+          <div
+            class="flex justify-end pt-1 w-full ml:w-auto ml:justify-start"
+          >
+            <label
+              class="text-gray-600 dark:text-gray-400 text-sm ml:text-md lg:text-base text-center sm:text-left"
+            />
+          </div>
+          <div
+            class="flex flex-col xl:flex-row items-center justify-center ml:justify-end mt-4 md:mt-0"
+          >
+            <div
+              class="flex justify-center w-48 xs:w-full m-0"
+            >
+              <div
+                class="scale-75 sm:scale-75 md:scale-80"
+              />
+            </div>
+            <div
+              class="flex flex-col items-center "
+            >
+              <button
+                class="contact-send-button-disabled"
+                disabled=""
+                type="submit"
+              >
+                send
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

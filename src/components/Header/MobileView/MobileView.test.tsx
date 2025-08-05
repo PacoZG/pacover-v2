@@ -1,8 +1,8 @@
 /* eslint-disabled */
 import React from 'react'
 import { render } from '@testing-library/react'
-import { describe, test, expect, vi } from 'vitest'
-import Contact from '@/components/Contact/index'
+import { describe, expect, test, vi } from 'vitest'
+import MobileView from '@/components/Header/MobileView/MobileView'
 
 window.scrollTo = vi.fn()
 
@@ -13,9 +13,9 @@ vi.mock('next-intl', () => ({
     }
   },
 }))
-describe('Contact component', () => {
+describe('MobileView component', () => {
   test('matches the snapshot', () => {
-    const { container } = render(<Contact />)
+    const { container } = render(<MobileView />)
 
     expect(container).toMatchSnapshot()
   })

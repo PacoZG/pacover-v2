@@ -1,0 +1,215 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="relative flex justify-center inset-x-0 bottom-0 bg-gray-200 dark:bg-gray-900 border-t border-gray-300 dark:border-gray-700 transition duration-500 w-full shadow-lg py-8 md:py-10"
+    id="contact-form"
+  >
+    <div
+      class="flex flex-col sm:flex-row items-center sm:items-start justify-center sm:justify-evenly w-full sm:w-11/12 lg:w-9/12 gap-8 md:gap-10 lg:gap-14"
+    >
+      <div
+        class="transform duration-500 pt-2 p-4 sm:p-4 pb-0 w-full sm:w-3/5 lg:w-8/12"
+      >
+        <form>
+          <div
+            class="flex flex-col items-center justify-center gap-6 p-3 sm:p-5 md:p-7 bg-gray-300 dark:bg-gray-800 rounded-xl shadow-lg transition duration-500"
+          >
+            <div
+              class="relative flex flex-col sm:flex-row justify-between items-center gap-6 w-full"
+            >
+              <input
+                class="contact-input-style"
+                name="name"
+                placeholder="name"
+                required=""
+                type="text"
+                value=""
+              />
+              <div
+                class="relative flex flex-col w-full"
+              >
+                <input
+                  class="contact-input-style"
+                  name="email"
+                  placeholder="Email"
+                  required=""
+                  type="email"
+                  value=""
+                />
+                <label
+                  class="absolute -bottom-6 left-2 text-sm text-red-700 dark:text-red-400 font-medium"
+                />
+              </div>
+            </div>
+            <textarea
+              class="contact-input-style h-24 resize-y"
+              maxlength="500"
+              minlength="50"
+              name="message"
+              placeholder="message"
+              required=""
+              type="text"
+            />
+            <div
+              class="flex flex-col ml:flex-row ml:items-center justify-evenly ml:justify-between w-full"
+            >
+              <div
+                class="flex justify-end pt-1 w-full ml:w-auto ml:justify-start"
+              >
+                <label
+                  class="text-gray-600 dark:text-gray-400 text-sm ml:text-md lg:text-base text-center sm:text-left"
+                />
+              </div>
+              <div
+                class="flex flex-col xl:flex-row items-center justify-center ml:justify-end mt-4 md:mt-0"
+              >
+                <div
+                  class="flex justify-center w-48 xs:w-full m-0"
+                >
+                  <div
+                    class="scale-75 sm:scale-75 md:scale-80"
+                  />
+                </div>
+                <div
+                  class="flex flex-col items-center "
+                >
+                  <button
+                    class="contact-send-button-disabled"
+                    disabled=""
+                    type="submit"
+                  >
+                    send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div
+        class="flex flex-col items-center sm:items-start gap-6 sm:pt-10 text-center sm:text-left"
+      >
+        <div
+          class="flex flex-col items-center sm:items-start gap-3"
+        >
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm font-semibold uppercase"
+          >
+            developed-by
+          </p>
+          <a
+            class="footer-link text-lg flex items-center gap-2"
+            href="https://www.linkedin.com/in/francisco-zavala"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <svg
+              height="24"
+              viewBox="0 0 64 64"
+              width="24"
+            >
+              <circle
+                cx="32"
+                cy="32"
+                fill="#0077B5"
+                r="32"
+              />
+              <path
+                d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"
+                fill="white"
+              />
+            </svg>
+            <p
+              class="text-gray-700 dark:text-gray-400 text-lg"
+            >
+              Francisco Zavala
+            </p>
+          </a>
+        </div>
+        <div
+          class="flex items-center gap-2"
+        >
+          <svg
+            aria-hidden="true"
+            class="h-5 w-5 text-blue-600 dark:text-blue-300"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16.5 12a4.5 4.5 0 1 1-9 0 4.5 4.5 0 0 1 9 0Zm0 0c0 1.657 1.007 3 2.25 3S21 13.657 21 12a9 9 0 1 0-2.636 6.364M16.5 12V8.25"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <p
+            class="text-gray-700 dark:text-gray-300 text-lg"
+          >
+            contact@pacoderzavala.com
+          </p>
+        </div>
+        <div
+          class="flex flex-col items-center sm:items-start gap-4"
+        >
+          <p
+            class="text-gray-700 dark:text-gray-300 text-sm font-semibold uppercase"
+          >
+            share-cv
+          </p>
+          <div
+            class="flex items-center justify-center gap-4"
+          >
+            <button
+              class="react-share__ShareButton focus-within:outline-none"
+              style="background-color: transparent; padding: 0px; color: inherit; cursor: pointer;"
+            >
+              <svg
+                height="28"
+                viewBox="0 0 64 64"
+                width="28"
+              >
+                <circle
+                  cx="32"
+                  cy="32"
+                  fill="#0965FE"
+                  r="32"
+                />
+                <path
+                  d="M34.1,47V33.3h4.6l0.7-5.3h-5.3v-3.4c0-1.5,0.4-2.6,2.6-2.6l2.8,0v-4.8c-0.5-0.1-2.2-0.2-4.1-0.2 c-4.1,0-6.9,2.5-6.9,7V28H24v5.3h4.6V47H34.1z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <button
+              class="react-share__ShareButton focus-within:outline-none"
+              style="background-color: transparent; padding: 0px; color: inherit; cursor: pointer;"
+            >
+              <svg
+                height="28"
+                viewBox="0 0 64 64"
+                width="28"
+              >
+                <circle
+                  cx="32"
+                  cy="32"
+                  fill="#0077B5"
+                  r="32"
+                />
+                <path
+                  d="M20.4,44h5.4V26.6h-5.4V44z M23.1,18c-1.7,0-3.1,1.4-3.1,3.1c0,1.7,1.4,3.1,3.1,3.1 c1.7,0,3.1-1.4,3.1-3.1C26.2,19.4,24.8,18,23.1,18z M39.5,26.2c-2.6,0-4.4,1.4-5.1,2.8h-0.1v-2.4h-5.2V44h5.4v-8.6 c0-2.3,0.4-4.5,3.2-4.5c2.8,0,2.8,2.6,2.8,4.6V44H46v-9.5C46,29.8,45,26.2,39.5,26.2z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
