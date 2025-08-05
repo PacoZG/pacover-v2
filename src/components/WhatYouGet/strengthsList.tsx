@@ -1,5 +1,6 @@
 import React from 'react'
 import { LanguageIcon, LightBulbIcon } from '@heroicons/react/24/outline'
+import { PuzzlePieceIcon } from '@heroicons/react/24/solid'
 
 type StrengthsList = {
   strengthIcon: React.ComponentType<{ className?: string }>
@@ -8,7 +9,7 @@ type StrengthsList = {
 
 export const strengthsList: StrengthsList[] = [
   {
-    strengthIcon: LightBulbIcon,
+    strengthIcon: PuzzlePieceIcon,
     translationText: 'multitask'
   },
   {

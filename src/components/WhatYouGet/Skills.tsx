@@ -64,9 +64,10 @@ const Skills = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8 xl:gap-10 pt-8 w-full sm:w-11/12 lg:w-2/3">
         {strengthsList.map(({ strengthIcon: Icon, translationText }) => (
-          <div key={translationText}>
+          <div className="strengths-banner" key={translationText}>
             <Icon className="strengths-icon" />
-            <span>{translationText}</span>
+
+            <span className="strengths-text">{t(`${translationText}`)}</span>
           </div>
         ))}
       </div>

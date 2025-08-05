@@ -641,7 +641,9 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
       <div
         class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8 xl:gap-10 pt-8 w-full sm:w-11/12 lg:w-2/3"
       >
-        <div>
+        <div
+          class="strengths-banner"
+        >
           <svg
             aria-hidden="true"
             class="strengths-icon"
@@ -658,11 +660,15 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
               stroke-linejoin="round"
             />
           </svg>
-          <span>
+          <span
+            class="strengths-text"
+          >
             multitask
           </span>
         </div>
-        <div>
+        <div
+          class="strengths-banner"
+        >
           <svg
             aria-hidden="true"
             class="strengths-icon"
@@ -679,11 +685,15 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
               stroke-linejoin="round"
             />
           </svg>
-          <span>
+          <span
+            class="strengths-text"
+          >
             engaged
           </span>
         </div>
-        <div>
+        <div
+          class="strengths-banner"
+        >
           <svg
             aria-hidden="true"
             class="strengths-icon"
@@ -700,11 +710,15 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
               stroke-linejoin="round"
             />
           </svg>
-          <span>
+          <span
+            class="strengths-text"
+          >
             lang1
           </span>
         </div>
-        <div>
+        <div
+          class="strengths-banner"
+        >
           <svg
             aria-hidden="true"
             class="strengths-icon"
@@ -721,7 +735,9 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
               stroke-linejoin="round"
             />
           </svg>
-          <span>
+          <span
+            class="strengths-text"
+          >
             lang2
           </span>
         </div>
