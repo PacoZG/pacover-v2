@@ -4,7 +4,6 @@ import './skill-style.css'
 import { useTranslations } from 'next-intl'
 import IconImage from '@/components/WhatYouGet/IconImage/IconImage'
 import { technologies } from '@/components/WhatYouGet/technologies'
-import { Java } from '@/components/icons'
 import { strengthsList } from '@/components/WhatYouGet/strengthsList'
 
 const Skills = () => {
@@ -25,36 +24,10 @@ const Skills = () => {
                 darkThemeTextColour={tech.darkThemeTextColour}
                 IconComponent={tech.IconComponent}
                 skillToolTipMsg={tech.skillToolTipMsg}
+                imageExtraStyle={tech.imageExtraStyle}
               />
             )
           })}
-
-          {/* Java */}
-          <div className="skill-card bg-gray-300 dark:bg-gray-800">
-            <Java className="skill-logo" />
-
-            <div className="flex gap-2 text-xs sm:text-sm pt-1">
-              <a
-                skill-tool-tip-msg="Java Programming I"
-                className="skill-cert-link"
-                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118753/rtibuwlmtzmdtr35u2gw.png"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Cert I
-              </a>
-
-              <a
-                skill-tool-tip-msg="Java Programming II"
-                className="skill-cert-link"
-                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118770/v7jfhsjvhla0pyw1p1dr.png"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Cert II
-              </a>
-            </div>
-          </div>
         </div>
 
         <p className="text-center pt-4 text-gray-700 dark:text-gray-400 text-xs sm:text-sm uppercase transition duration-500 w-full sm:w-11/12 lg:w-2/3">

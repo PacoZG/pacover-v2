@@ -1,9 +1,9 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import Skills from './Skills'
 import { useTranslations } from 'next-intl'
 import Strengths from '@/components/WhatYouGet/Strengths'
+import Skills from '@/components/WhatYouGet/Skills'
 
 const WhatYouGet: React.FC = () => {
   const t = useTranslations('stickers')

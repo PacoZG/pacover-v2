@@ -8,6 +8,7 @@ type IconImageProps = {
   certUrl?: string,
   altName?: string,
   darkThemeTextColour: string,
+  imageExtraStyle: string,
   IconComponent?: React.ReactNode,
   skillToolTipMsg: boolean
 }
@@ -18,6 +19,7 @@ const IconImage: React.FC<IconImageProps> = ({
   certUrl,
   altName,
   darkThemeTextColour,
+  imageExtraStyle,
   IconComponent,
   skillToolTipMsg
 }) => {
@@ -34,7 +36,7 @@ const IconImage: React.FC<IconImageProps> = ({
       >
         {imageUrl && altName ? (
           <Image
-            className="skill-logo object-contain"
+            className={`skill-logo object-contain ${imageExtraStyle}`}
             src={imageUrl}
             alt={altName}
             width={600}
@@ -43,7 +45,7 @@ const IconImage: React.FC<IconImageProps> = ({
         ) : (
           IconComponent
         )}
-        <p className={`skill-text dark:${darkThemeTextColour}`}>{name}</p>
+        <p className={`skill-text ${darkThemeTextColour}`}>{name}</p>
       </a>
     </div>
   )
