@@ -1,0 +1,890 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`WhatYouGet component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="page-layout"
+  >
+    <div
+      class="flex justify-center w-full py-8"
+    >
+      <div
+        class="sticky-header rounded-t-xl"
+      >
+        skills
+      </div>
+    </div>
+    <div
+      class="flex flex-col items-center p-4 md:py-10 lg:py-20"
+    >
+      <div
+        class="bg-gray-600 dark:bg-gray-900 flex flex-col items-center w-full sm:w-11/12 lg:w-2/3 transition duration-500 rounded-xl bg-opacity-70 dark:bg-opacity-70 p-4"
+      >
+        <div
+          class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-6 gap-1 sm:gap-2 md:gap-4 lg:gap-6 py-5 w-full border-b-2 border-gray-300 dark:border-gray-700"
+        >
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="Javascript Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-yellow-300"
+              >
+                Javascript
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="React Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fofficel%2F80%2F000000%2Freact.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fofficel%2F80%2F000000%2Freact.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fofficel%2F80%2F000000%2Freact.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-blue-300"
+              >
+                React
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo"
+                viewBox="0 0 100 100"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g
+                  fill="#764ABC"
+                >
+                  <path
+                    d="M65.6 65.4c2.9-.3 5.1-2.8 5-5.8S68 54.2 65 54.2h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 1.5.7 2.8 1.6 3.7-3.4 6.7-8.6 11.6-16.4 15.7-5.3 2.8-10.8 3.8-16.3 3.1-4.5-.6-8-2.6-10.2-5.9-3.2-4.9-3.5-10.2-.8-15.5 1.9-3.8 4.9-6.6 6.8-8-.4-1.3-1-3.5-1.3-5.1-14.5 10.5-13 24.7-8.6 31.4 3.3 5 10 8.1 17.4 8.1 2 0 4-.2 6-.7 12.8-2.5 22.5-10.1 28-21.4"
+                  />
+                  <path
+                    d="M83.2 53c-7.6-8.9-18.8-13.8-31.6-13.8H50c-.9-1.8-2.8-3-4.9-3h-.2c-3.1.1-5.5 2.7-5.4 5.8.1 3 2.6 5.4 5.6 5.4h.2c2.2-.1 4.1-1.5 4.9-3.4H52c7.6 0 14.8 2.2 21.3 6.5 5 3.3 8.6 7.6 10.6 12.8 1.7 4.2 1.6 8.3-.2 11.8-2.8 5.3-7.5 8.2-13.7 8.2-4 0-7.8-1.2-9.8-2.1-1.1 1-3.1 2.6-4.5 3.6 4.3 2 8.7 3.1 12.9 3.1 9.6 0 16.7-5.3 19.4-10.6 2.9-5.8 2.7-15.8-4.8-24.3"
+                  />
+                  <path
+                    d="M32.4 67.1c.1 3 2.6 5.4 5.6 5.4h.2c3.1-.1 5.5-2.7 5.4-5.8-.1-3-2.6-5.4-5.6-5.4h-.2c-.2 0-.5 0-.7.1-4.1-6.8-5.8-14.2-5.2-22.2.4-6 2.4-11.2 5.9-15.5 2.9-3.7 8.5-5.5 12.3-5.6 10.6-.2 15.1 13 15.4 18.3 1.3.3 3.5 1 5 1.5-1.2-16.2-11.2-24.6-20.8-24.6-9 0-17.3 6.5-20.6 16.1-4.6 12.8-1.6 25.1 4 34.8-.5.7-.8 1.8-.7 2.9"
+                  />
+                </g>
+              </svg>
+              <p
+                class="skill-text dark:text-blue-300"
+              >
+                Redux
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="GraphQL Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F48%2F000000%2Fgraphql.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F48%2F000000%2Fgraphql.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F48%2F000000%2Fgraphql.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-pink-500"
+              >
+                GraphQL
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="React-Native Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Freact-native.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Freact-native.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Freact-native.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-pink-700"
+              >
+                React-Native
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="TypeScript Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                TypeScript
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="Javascript Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-yellow-300"
+              >
+                Javascript
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="HTML Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-yellow-600"
+              >
+                HTML
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo"
+                height="361"
+                preserveAspectRatio="xMidYMid"
+                viewBox="-52.5 0 361 361"
+                width="361"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M127.844 360.088 23.662 331.166.445 70.766h255.11l-23.241 260.36z"
+                  fill="#264DE4"
+                />
+                <path
+                  d="m212.417 314.547 19.86-222.49H128V337.95z"
+                  fill="#2965F1"
+                />
+                <path
+                  d="m53.669 188.636 2.862 31.937H128v-31.937zm-5.752-64.641 2.903 31.937H128v-31.937zM128 271.58l-.14.037-35.568-9.604-2.274-25.471h-32.06l4.474 50.146 65.421 18.16.147-.04z"
+                  fill="#EBEBEB"
+                />
+                <path
+                  d="m202.127 188.636 5.765-64.641H127.89v31.937h45.002l-2.906 32.704H127.89v31.937h39.327l-3.708 41.42-35.62 9.614v33.226l65.473-18.145.48-5.396 7.506-84.08z"
+                  fill="#FFF"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-blue-600"
+              >
+                CSS
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="MongoDB Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fmongodb.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fmongodb.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fmongodb.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-green-400"
+              >
+                MongoDB
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="Node.js Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fnodejs.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fnodejs.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fnodejs.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-green-400"
+              >
+                Node.js
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res-cloudinary-com/dbn5gpgi5/image/upload/v1681117640/zomoudnr2mriz6zvdetq.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="SQL Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fnolan%2F600%2Fjavascript.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-blue-400"
+              >
+                SQL
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo object-contain"
+                preserveAspectRatio="xMidYMid"
+                viewBox="0 0 256 153.6"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <defs>
+                  <lineargradient
+                    id="tailwind-css_svg__a"
+                    x1="-2.778%"
+                    x2="100%"
+                    y1="32%"
+                    y2="67.556%"
+                  >
+                    <stop
+                      offset="0%"
+                      stop-color="#2298BD"
+                    />
+                    <stop
+                      offset="100%"
+                      stop-color="#0ED7B5"
+                    />
+                  </lineargradient>
+                </defs>
+                <path
+                  d="M128 0Q76.8 0 64 51.2 83.2 25.6 108.8 32c9.737 2.434 16.697 9.499 24.401 17.318C145.751 62.057 160.275 76.8 192 76.8q51.2 0 64-51.2-19.2 25.6-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C174.249 14.743 159.725 0 128 0M64 76.8q-51.2 0-64 51.2 19.2-25.6 44.8-19.2c9.737 2.434 16.697 9.499 24.401 17.318C81.751 138.857 96.275 153.6 128 153.6q51.2 0 64-51.2-19.2 25.6-44.8 19.2c-9.737-2.434-16.697-9.499-24.401-17.318C110.249 91.543 95.725 76.8 64 76.8"
+                  fill="url(#tailwind-css_svg__a)"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-blue-400"
+              >
+                Tailwindcss
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117638/ji8dwtahm9dom6kuzxbm.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo"
+                preserveAspectRatio="xMidYMid"
+                viewBox="0 0 256 256"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <path
+                    d="M128 0c70.75 0 128 57.25 128 128s-57.25 128-128 128S0 198.75 0 128 57.25 0 128 0"
+                    id="cypress_svg__a"
+                  />
+                  <path
+                    d="M128 3c69.09 0 125 55.91 125 125s-55.91 125-125 125S3 197.09 3 128 58.91 3 128 3"
+                    id="cypress_svg__d"
+                  />
+                  <filter
+                    filterUnits="objectBoundingBox"
+                    height="104.8%"
+                    id="cypress_svg__c"
+                    width="104.8%"
+                    x="-2.4%"
+                    y="-2.4%"
+                  >
+                    <feoffset
+                      in="SourceAlpha"
+                      result="shadowOffsetOuter1"
+                    />
+                    <fegaussianblur
+                      in="shadowOffsetOuter1"
+                      result="shadowBlurOuter1"
+                      stdDeviation="2"
+                    />
+                    <fecolormatrix
+                      in="shadowBlurOuter1"
+                      values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"
+                    />
+                  </filter>
+                </defs>
+                <mask
+                  fill="#fff"
+                  id="cypress_svg__b"
+                >
+                  <use
+                    xlink:href="#cypress_svg__a"
+                  />
+                </mask>
+                <g
+                  mask="url(#cypress_svg__b)"
+                >
+                  <use
+                    filter="url(#cypress_svg__c)"
+                    xlink:href="#cypress_svg__d"
+                  />
+                  <use
+                    fill="#FFF"
+                    fill-rule="evenodd"
+                    xlink:href="#cypress_svg__d"
+                  />
+                </g>
+                <path
+                  d="M128 7.386c66.667 0 120.614 53.947 120.614 120.614S194.667 248.614 128 248.614 7.386 194.667 7.386 128 61.333 7.386 128 7.386"
+                  fill="#5C5C5E"
+                  mask="url(#cypress_svg__b)"
+                />
+                <path
+                  d="M192.035 181.07c-4.386 13.597-10.965 23.684-20.175 31.14-9.21 7.457-21.492 11.404-36.842 12.72l-3.07-20.176c10.087-1.315 17.543-3.508 22.368-7.017 1.754-1.316 5.263-5.263 5.263-5.263L123.175 75.807h30.264l21.052 87.28 22.369-87.28h29.386zM86.333 71.86c7.018 0 13.597.877 18.86 3.07 5.702 2.193 10.965 5.263 16.228 9.649l-12.28 16.667c-3.51-2.632-7.018-4.386-10.088-5.702s-7.018-1.755-10.527-1.755c-14.912 0-22.368 11.404-22.368 34.65 0 11.842 1.754 20.175 5.702 25 3.947 5.263 9.21 7.456 16.666 7.456 3.51 0 7.018-.439 10.088-1.755s6.579-3.07 10.965-5.701l12.28 17.543c-10.087 8.334-21.49 12.281-34.648 12.281-10.527 0-19.299-2.193-27.193-6.579-7.457-4.386-13.597-10.965-17.544-19.298s-6.14-17.982-6.14-29.386c0-10.965 2.192-21.053 6.14-29.386 3.947-8.772 10.087-15.35 17.544-20.175 7.456-3.948 16.228-6.58 26.315-6.58"
+                  fill="#FFF"
+                  mask="url(#cypress_svg__b)"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-gray-200"
+              >
+                Cypress.io
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo bg-transparent"
+                viewBox="0 0 122.88 88.17"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M121.68 33.34c-.34-.28-3.42-2.62-10.03-2.62-1.71 0-3.48.17-5.19.46-1.25-8.72-8.49-12.94-8.78-13.16l-1.77-1.03-1.14 1.65a24.3 24.3 0 0 0-3.13 7.29c-1.2 4.96-.46 9.63 2.05 13.62-3.02 1.71-7.92 2.11-8.95 2.17H3.81a3.82 3.82 0 0 0-3.82 3.82 57.8 57.8 0 0 0 3.53 20.8c2.79 7.29 6.95 12.71 12.31 16.01 6.04 3.7 15.9 5.81 27.01 5.81 5.01 0 10.03-.46 14.99-1.37 6.9-1.25 13.51-3.65 19.6-7.12a53.7 53.7 0 0 0 13.34-10.94c6.44-7.24 10.26-15.33 13.05-22.51h1.14c7.01 0 11.34-2.79 13.73-5.19 1.6-1.48 2.79-3.31 3.65-5.36l.51-1.48zm-50.09 6.04h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H71.59c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-15.1-27.75h10.83c.51 0 .97-.4.97-.97V.97c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .51.45.97.97.97m0 13.9h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .52.45.97.97.97m-14.99 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .52.4.97.97.97m-15.22 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.52.46.97.97.97m30.21 13.85h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .57.45.97.97.97m-14.99 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .57.4.97.97.97m-15.22 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-14.93 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H11.35c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97"
+                  style="fill: #0091e2;"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                Docker
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="Kubernetes Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                Kubernetes
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://datadog.docebosaas.com/share/v1/gamification/assigned_badge/942dde0a-211f-4e54-b9ea-fe148117eec0/shared?lang=en&t=1689281055089"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <img
+                alt="Datadog Logo"
+                class="skill-logo object-contain"
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fcdn5.dcbstatic.com%2Ffiles%2Fd%2Fa%2Fdatadog_docebosaas_com%2Fassets%2Fbadges%2Foriginal%2F6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fcdn5.dcbstatic.com%2Ffiles%2Fd%2Fa%2Fdatadog_docebosaas_com%2Fassets%2Fbadges%2Foriginal%2F6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fcdn5.dcbstatic.com%2Ffiles%2Fd%2Fa%2Fdatadog_docebosaas_com%2Fassets%2Fbadges%2Foriginal%2F6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-green-500"
+              >
+                Datadog
+              </p>
+            </a>
+          </div>
+          <div
+            class="skill-card bg-gray-300 dark:bg-gray-800"
+          >
+            <svg
+              class="skill-logo"
+              height="540.906"
+              viewBox="-118.513 4.399 540.906 540.906"
+              width="540.906"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M285.104 430.945h-2.037v-1.14h5.486v1.14h-2.025v5.688h-1.424zm10.942.297h-.032l-2.02 5.393h-.924l-2.006-5.393h-.024v5.393h-1.343v-6.828h1.976l1.86 4.835 1.854-4.835h1.969v6.828h-1.311z"
+                fill="#e76f00"
+              />
+              <path
+                d="M102.681 291.324s-14.178 8.245 10.09 11.035c29.4 3.354 44.426 2.873 76.825-3.259 0 0 8.518 5.341 20.414 9.967-72.63 31.128-164.376-1.803-107.329-17.743m-8.875-40.62s-15.902 11.771 8.384 14.283c31.406 3.24 56.208 3.505 99.125-4.759 0 0 5.937 6.018 15.271 9.309-87.815 25.678-185.624 2.025-122.78-18.833"
+                fill="#5382a1"
+              />
+              <path
+                d="M168.625 181.799c17.896 20.604-4.701 39.146-4.701 39.146s45.439-23.458 24.571-52.833c-19.491-27.395-34.438-41.005 46.479-87.934.001-.001-127.013 31.721-66.349 101.621"
+                fill="#e76f00"
+              />
+              <path
+                d="M264.684 321.369s10.492 8.646-11.555 15.333c-41.923 12.7-174.488 16.535-211.314.507-13.238-5.76 11.587-13.752 19.396-15.429 8.144-1.766 12.798-1.437 12.798-1.437-14.722-10.371-95.157 20.363-40.857 29.166 148.084 24.015 269.944-10.814 231.532-28.14M109.499 208.617s-67.431 16.016-23.879 21.832c18.389 2.462 55.047 1.905 89.192-.956 27.906-2.354 55.928-7.358 55.928-7.358s-9.84 4.214-16.959 9.074c-68.475 18.01-200.756 9.631-162.674-8.79 32.206-15.568 58.392-13.802 58.392-13.802m120.963 67.614c69.608-36.171 37.425-70.932 14.96-66.248-5.506 1.146-7.961 2.139-7.961 2.139s2.045-3.202 5.947-4.588c44.441-15.624 78.619 46.081-14.346 70.521 0 0 1.079-.962 1.4-1.824"
+                fill="#5382a1"
+              />
+              <path
+                d="M188.495 4.399s38.55 38.562-36.563 97.862c-60.233 47.567-13.735 74.689-.025 105.678-35.158-31.723-60.96-59.647-43.65-85.637 25.406-38.151 95.792-56.648 80.238-117.903"
+                fill="#e76f00"
+              />
+              <path
+                d="M116.339 374.246c66.815 4.277 169.417-2.373 171.846-33.987 0 0-4.67 11.984-55.219 21.503-57.027 10.731-127.364 9.479-169.081 2.601.002-.002 8.541 7.067 52.454 9.883"
+                fill="#5382a1"
+              />
+              <path
+                d="M105.389 495.049c-6.303 5.467-12.96 8.536-18.934 8.536-8.527 0-13.134-5.113-13.134-13.314 0-8.871 4.937-15.357 24.739-15.357h7.328zm17.392 19.623V453.93c0-15.518-8.85-25.756-30.188-25.756-12.457 0-23.369 3.076-32.238 6.999l2.56 10.752c6.983-2.563 16.022-4.949 24.894-4.949 12.292 0 17.58 4.949 17.58 15.181v7.678h-6.135c-29.865 0-43.337 11.593-43.337 28.993 0 15.018 8.878 23.554 25.594 23.554 10.745 0 18.766-4.437 26.264-10.929l1.361 9.221zm58.043 0h-21.691l-26.106-84.96h18.944l16.198 52.199 3.601 15.699c8.195-22.698 13.992-45.726 16.891-67.898h18.427c-4.938 27.976-13.822 58.684-26.264 84.96m83.214-19.623c-6.315 5.467-12.983 8.536-18.958 8.536-8.512 0-13.131-5.113-13.131-13.314 0-8.871 4.947-15.357 24.748-15.357h7.341zm17.39 19.623V453.93c0-15.518-8.871-25.756-30.186-25.756-12.465 0-23.381 3.076-32.246 6.999l2.557 10.752c6.985-2.563 16.041-4.949 24.906-4.949 12.283 0 17.579 4.949 17.579 15.181v7.678h-6.146c-29.873 0-43.34 11.593-43.34 28.993 0 15.018 8.871 23.554 25.584 23.554 10.752 0 18.77-4.437 26.28-10.929l1.366 9.221zM36.847 529.099c-4.958 7.239-12.966 12.966-21.733 16.206L6.527 535.2c6.673-3.424 12.396-8.954 15.055-14.104 2.3-4.581 3.252-10.485 3.252-24.604v-96.995h18.478v95.666c-.001 18.875-1.51 26.5-6.465 33.936"
+                fill="#e76f00"
+              />
+            </svg>
+            <div
+              class="flex gap-2 text-xs sm:text-sm pt-1"
+            >
+              <a
+                class="skill-cert-link"
+                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118753/rtibuwlmtzmdtr35u2gw.png"
+                rel="noopener noreferrer"
+                skill-tool-tip-msg="Java Programming I"
+                target="_blank"
+              >
+                Cert I
+              </a>
+              <a
+                class="skill-cert-link"
+                href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681118770/v7jfhsjvhla0pyw1p1dr.png"
+                rel="noopener noreferrer"
+                skill-tool-tip-msg="Java Programming II"
+                target="_blank"
+              >
+                Cert II
+              </a>
+            </div>
+          </div>
+        </div>
+        <p
+          class="text-center pt-4 text-gray-700 dark:text-gray-400 text-xs sm:text-sm uppercase transition duration-500 w-full sm:w-11/12 lg:w-2/3"
+        >
+          info-click
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 2xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8 xl:gap-10 pt-8 w-full sm:w-11/12 lg:w-2/3"
+      >
+        <div>
+          <svg
+            aria-hidden="true"
+            class="strengths-icon"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>
+            multitask
+          </span>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            class="strengths-icon"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>
+            engaged
+          </span>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            class="strengths-icon"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>
+            lang1
+          </span>
+        </div>
+        <div>
+          <svg
+            aria-hidden="true"
+            class="strengths-icon"
+            data-slot="icon"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="m10.5 21 5.25-11.25L21 21m-9-3h7.5M3 5.621a48.474 48.474 0 0 1 6-.371m0 0c1.12 0 2.233.038 3.334.114M9 5.25V3m3.334 2.364C11.176 10.658 7.69 15.08 3 17.502m9.334-12.138c.896.061 1.785.147 2.666.257m-4.589 8.495a18.023 18.023 0 0 1-3.827-5.802"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span>
+            lang2
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex justify-center w-full py-8"
+    >
+      <div
+        class="sticky-header"
+      >
+        strengths
+      </div>
+    </div>
+    <div
+      class="bg-gray-400 dark:bg-gray-900 flex flex-col items-center p-4 md:py-10 lg:py-20 transition duration-500 rounded-b-xl bg-opacity-70 dark:bg-opacity-70"
+    >
+      <div
+        class="w-full sm:w-11/12 lg:w-2/3"
+      >
+        <div
+          class="accordion-card"
+        >
+          <button
+            class="flex items-center justify-between w-full p-0"
+          >
+            <p
+              class="accordion-title"
+            >
+              strength1
+            </p>
+            <div
+              class="transition duration-300"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 text-gray-500 dark:text-blue-300"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+               
+            </div>
+          </button>
+        </div>
+        <div
+          class="accordion-card"
+        >
+          <button
+            class="flex items-center justify-between w-full p-0"
+          >
+            <p
+              class="accordion-title"
+            >
+              strength2
+            </p>
+            <div
+              class="transition duration-300"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 text-gray-500 dark:text-blue-300"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          class="accordion-card"
+        >
+          <button
+            class="flex items-center justify-between w-full p-0"
+          >
+            <p
+              class="accordion-title"
+            >
+              strength3
+            </p>
+            <div
+              class="transition duration-300"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 text-gray-500 dark:text-blue-300"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          class="accordion-card"
+        >
+          <button
+            class="flex items-center justify-between w-full p-0"
+          >
+            <p
+              class="accordion-title"
+            >
+              HIGH
+               
+              <span
+                class="border-2 border-yellow-300 p-1 rounded-md"
+              >
+                5
+              </span>
+               
+              TEST
+            </p>
+            <div
+              class="transition duration-300"
+            >
+              <svg
+                aria-hidden="true"
+                class="h-6 w-6 text-gray-500 dark:text-blue-300"
+                data-slot="icon"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
