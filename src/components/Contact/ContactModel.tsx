@@ -4,6 +4,7 @@ import emailjs from '@emailjs/browser'
 import React, { useState } from 'react'
 import { getTheme } from '@/utils/localdb'
 import { useField } from '@/hooks/InputHooks'
+import logger from '@/utils/logger'
 
 type EmailValidation = () => boolean
 type HandleSendEmail = (event: React.FormEvent<HTMLFormElement>) => void
@@ -19,11 +20,13 @@ export const ContactModel = () => {
   const message = useField('text')
   const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''
   const theme = getTheme()
+  const log = logger()
 
   const buttonIsDisabled: DisableButton = () => {
     if (!disabled && message.params.value.length > 49) {
       return false
     }
+
     return true
   }
 
@@ -50,12 +53,12 @@ export const ContactModel = () => {
         )
         .then(
           result => {
-            console.log(result.text)
+            log.info(result.text)
             setShowModal(true)
             setSending(false)
           },
           error => {
-            console.log(error.text)
+            log.error(error.text)
           }
         )
       fullName.reset()
@@ -76,6 +79,7 @@ export const ContactModel = () => {
     ) {
       return true
     }
+
     return false
   }
 

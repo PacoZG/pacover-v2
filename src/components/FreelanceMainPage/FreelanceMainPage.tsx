@@ -12,6 +12,7 @@ import {
   Settings,
 } from 'lucide-react'
 import { useTranslations } from 'next-intl'
+import Image from 'next/image'
 
 const FreelanceMainPage: React.FC = () => {
   const [showArrow, setShowArrow] = useState<boolean>(false)
@@ -75,10 +76,12 @@ const FreelanceMainPage: React.FC = () => {
     <div className="min-h-screen bg-gray-400 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-500">
       {/* Hero Section */}
       <div className="relative h-screen flex items-center justify-center text-center">
-        <img
+        <Image
           src="https://placehold.co/1920x1080/4F46E5/ffffff?text=Professional+Coding+Environment"
           alt="Professional Coding Environment"
           className="absolute inset-0 w-full h-full object-cover z-0"
+          width={96}
+          height={96}
         />
         <div className="absolute inset-0 bg-black bg-opacity-60 dark:bg-opacity-70 z-10"></div>
 

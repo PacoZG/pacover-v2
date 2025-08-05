@@ -11,7 +11,7 @@ interface RootLayoutProps {
   params: Promise<{ locale: string }>;
 }
 
-const RootLayout: React.FC<RootLayoutProps> = async ({ children, params }) => {
+const RootLayout: React.FC<RootLayoutProps> = async ({ children }) => {
   const messages = await getMessages()
   const locale = await getLocale()
 

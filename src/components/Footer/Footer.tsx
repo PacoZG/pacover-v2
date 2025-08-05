@@ -1,7 +1,6 @@
-// src/components/Footer/tsx
-'use client' // Correctly marked as client component
+'use client'
 
-import React, { useEffect, useState } from 'react' // Import useState and useEffect
+import React, { useEffect, useState } from 'react'
 import { AtSymbolIcon } from '@heroicons/react/24/outline'
 import {
   FacebookIcon,
@@ -15,10 +14,8 @@ import { useTranslations } from 'next-intl'
 const Footer: React.FC = () => {
   const t = useTranslations('Footer')
 
-  // 1. Create state to hold the current URL
   const [currentUrl, setCurrentUrl] = useState('')
 
-  // 2. Use useEffect to set the URL once the component mounts on the client
   useEffect(() => {
     setCurrentUrl(window.location.href)
   }, [])

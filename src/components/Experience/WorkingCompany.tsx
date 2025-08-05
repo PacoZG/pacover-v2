@@ -21,6 +21,7 @@ const WorkingCompany: React.FC<WorkingCompanyProps> = ({ experience, link }) => 
     if (typeof responsibilitiesContent === 'string') {
 
       const lines: string[] = responsibilitiesContent.split('\n').filter(line => line.trim() !== '')
+
       return (
         <ul className="list-disc list-inside space-y-1">
           {lines.map((item, index) => (

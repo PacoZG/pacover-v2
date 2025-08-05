@@ -10,6 +10,7 @@ const WhatYouGet: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
   return (
     <div className="page-layout">
       <div className="flex justify-center w-full py-8">

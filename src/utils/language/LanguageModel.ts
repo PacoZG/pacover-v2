@@ -25,7 +25,7 @@ export const LanguageModel = (): LanguageModelReturn => {
       effectiveLanguage = storedLanguage;
     } else {
       const defaultBrowserLanguage: string =
-        window.navigator.language || (window.navigator as any).userLanguage || 'en-US';
+        window.navigator.language || (window.navigator as { userLanguage?: string }).userLanguage || 'en-US';
 
       if (defaultBrowserLanguage.startsWith('es')) {
         effectiveLanguage = 'es';

@@ -4,15 +4,25 @@ import {
   LightBulbIcon,
   PuzzlePieceIcon,
 } from '@heroicons/react/24/outline'
+import Image from 'next/image'
 import React from 'react'
 import './skill-style.css'
-import { Css, Cypress, Java, Redux, TailwindCss } from '@/components/icons'
-import SQLLogo from '@/components/icons/SQLLogo'
-import DockerLogo from '@/components/icons/DockerLogo'
+import {
+  AwsLogo,
+  Css,
+  Cypress,
+  DockerLogo,
+  Java,
+  Redux,
+  SQLLogo,
+  TailwindCss,
+  Typescript,
+} from '@/components/icons'
 import { useTranslations } from 'next-intl'
 
 const Skills = () => {
   const t = useTranslations('skills')
+
   return (
     <div className="flex flex-col items-center p-4 md:py-10 lg:py-20">
       <div className="bg-gray-600 dark:bg-gray-900 flex flex-col items-center w-full sm:w-11/12 lg:w-2/3 transition duration-500 rounded-xl bg-opacity-70 dark:bg-opacity-70 p-4">
@@ -25,10 +35,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo object-contain"
-              src="https://img.icons8.com/nolan/96/javascript.png"
+              src="https://img.icons8.com/nolan/600/javascript.png"
               alt="Javascript Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-yellow-400">Javascript</p>
           </a>
@@ -41,10 +53,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo object-contain"
               src="https://img.icons8.com/officel/80/000000/react.png"
               alt="React Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-blue-300">React</p>
           </a>
@@ -69,10 +83,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo object-contain"
               src="https://img.icons8.com/color/48/000000/graphql.png"
               alt="GraphQL Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-pink-500">GraphQL</p>
           </a>
@@ -85,10 +101,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo object-contain"
-              src="https://img.icons8.com/nolan/96/react-native.png"
+              src="https://img.icons8.com/nolan/600/react-native.png"
               alt="React-Native Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-pink-700">React-Native</p>
           </a>
@@ -101,20 +119,18 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
-              className="skill-logo object-contain"
-              src="https://img.icons8.com/color/48/typescript.png"
-              alt="TypeScript Logo"
-            />
+            <Typescript className="skill-logo object-contain" />
             <p className="skill-text dark:text-blue-500">Typescript</p>
           </a>
 
           {/* HTML */}
           <div className="skill-card bg-gray-300 dark:bg-gray-800">
-            <img
+            <Image
               className="skill-logo object-contain"
               src="https://img.icons8.com/color/344/html-5--v1.png"
               alt="HTML Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-orange-500">HTML</p>
           </div>
@@ -133,10 +149,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo object-contain"
-              src="https://img.icons8.com/color/96/000000/mongodb.png"
+              src="https://img.icons8.com/color/600/000000/mongodb.png"
               alt="MongoDB Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-green-400">MongoDB</p>
           </a>
@@ -149,10 +167,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo bg-green-400 p-3 object-contain"
-              src="https://img.icons8.com/color/96/000000/nodejs.png"
+              src="https://img.icons8.com/color/600/000000/nodejs.png"
               alt="Node.js Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-lime-500">Node.js</p>
           </a>
@@ -228,21 +248,19 @@ const Skills = () => {
 
           {/* Kubernetes */}
           <div className="skill-card bg-gray-300 dark:bg-gray-800">
-            <img
+            <Image
               className="skill-logo"
-              src="https://img.icons8.com/color/96/000000/kubernetes.png"
+              src="https://img.icons8.com/color/600/000000/kubernetes.png"
               alt="Kubernetes Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-blue-500">Kubernetes</p>
           </div>
 
-          {/* AWS - CHANGED SOURCE */}
+          {/* AWSLogo */}
           <div className="skill-card bg-gray-300 dark:bg-gray-800">
-            <img
-              className="skill-logo"
-              src="https://img.icons8.com/color/48/amazon-web-services.png"
-              alt="AWS Logo"
-            />
+            <AwsLogo className="skill-logo" />
             <p className="skill-text dark:text-orange-400">AWS</p>
           </div>
 
@@ -254,10 +272,12 @@ const Skills = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Image
               className="skill-logo"
               src="https://cdn5.dcbstatic.com/files/d/a/datadog_docebosaas_com/assets/badges/original/6149e0bf43bb02e0d6e207efd297a00ce5ac4443.png"
               alt="Datadog Logo"
+              width={600}
+              height={600}
             />
             <p className="skill-text dark:text-green-500">Datadog</p>
           </a>

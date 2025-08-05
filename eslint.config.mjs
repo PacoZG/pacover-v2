@@ -31,8 +31,9 @@ const eslintConfig = [
       '**/node_modules/**',
     ],
   },
+  // TypeScript files
   {
-    files: ['**/*.ts', '**/*.tsx', '**/*.js', '**/*.jsx'],
+    files: ['**/*.ts', '**/*.tsx'],
     plugins: {
       'next': {},
       'prettier': {},
@@ -72,6 +73,38 @@ const eslintConfig = [
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/array-type': 'off',
       '@typescript-eslint/no-duplicate-enum-values': 'off',
+    },
+  },
+  // JavaScript files
+  {
+    files: ['**/*.js', '**/*.jsx'],
+    plugins: {
+      'next': {},
+      'prettier': {},
+    },
+    languageOptions: {
+      ecmaVersion: 2022,
+      sourceType: 'module',
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+    },
+    rules: {
+      'no-console': 'warn',
+      'import/extensions': 'off',
+      'import/prefer-default-export': 'off',
+      'no-use-before-define': 'off',
+      'no-shadow': 'off',
+      'no-unused-vars': 'warn',
+      'padding-line-between-statements': [
+        'error',
+        {
+          blankLine: 'always',
+          prev: '*',
+          next: ['return', 'throw'],
+        },
+      ],
     },
   },
 ]

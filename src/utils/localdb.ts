@@ -9,8 +9,10 @@ const setTheme = (theme: string) => {
 const getTheme = () => {
   if (isBrowser) {
     const stored = localStorage.getItem('usersTheme')
+
     return stored ? JSON.parse(stored) : null
   }
+
   return null
 }
 
@@ -23,8 +25,10 @@ const setLanguage = (lang: string) => {
 const getLanguage = () => {
   if (isBrowser) {
     const stored = localStorage.getItem('usersLanguage')
+
     return stored ? JSON.parse(stored) : null
   }
+
   return null
 }
 
