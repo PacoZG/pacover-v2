@@ -5,8 +5,6 @@ import DesktopView from '@/components/Toggle/DesktopView/DesktopView'
 
 describe('DesktopView', () => {
   beforeEach(() => {
-    window.scrollTo = vi.fn()
-
     vi.mock('next-intl', () => ({
       useTranslations: () => (key: string) => key,
     }))

@@ -5,8 +5,6 @@ import Toggle from '@/components/Toggle/Toggle'
 
 describe('Toggle', () => {
   beforeEach(() => {
-    window.scrollTo = vi.fn()
-
     vi.mock('next-intl', () => ({
       useTranslations: () => (key: string) => key,
     }))

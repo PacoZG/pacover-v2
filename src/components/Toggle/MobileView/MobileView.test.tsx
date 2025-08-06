@@ -1,13 +1,10 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import { describe, test, expect, vi, beforeEach } from 'vitest'
-import Presentation from '@/components/Presentation/index'
+import { beforeEach, describe, expect, test, vi } from 'vitest'
 import MobileView from '@/components/Toggle/MobileView/MobileView'
 
 describe('MobileView', () => {
   beforeEach(() => {
-    window.scrollTo = vi.fn()
-
     vi.mock('next-intl', () => ({
       useTranslations: () => (key: string) => key,
     }))
