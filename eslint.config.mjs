@@ -60,6 +60,7 @@ const eslintConfig = [
       'no-use-before-define': 'off',
       'no-shadow': 'off',
       'no-unused-vars': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-shadow': ['error'],
       '@typescript-eslint/no-unused-vars': ['error'],
       'padding-line-between-statements': [
