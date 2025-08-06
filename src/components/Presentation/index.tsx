@@ -1,9 +1,9 @@
 'use client'
 
 import React, { useEffect } from 'react'
-import WhoIAm from '@/components/Presentation/WhoIAm'
-import Education from '@/components/Presentation/Education'
 import { useTranslations } from 'next-intl'
+import WhoIAm from '@/components/Presentation/WhoAmI/WhoIAm'
+import Education from '@/components/Presentation/Education/Education'
 
 const Presentation: React.FC = () => {
   const t = useTranslations('stickers')

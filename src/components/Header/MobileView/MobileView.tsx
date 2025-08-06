@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from '@/i18n/navigation'
 import { Home } from 'lucide-react'
-import Toggle from '@/components/Toggle'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid'
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
 import { usePathname } from 'next/navigation'
 import GitHub from '@/components/icons/Github'
 import { LanguageModel } from '@/utils/language/LanguageModel'
 import { useTranslations } from 'next-intl'
+import Toggle from '@/components/Toggle/Toggle'
 
 const MobileView = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false)

@@ -1,0 +1,197 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Desktop > given configured with dependencies > <DesktopView /> > matches snapshot 1`] = `
+<div>
+  <div
+    class="hidden md:flex items-center justify-between px-8 py-3"
+  >
+    <div
+      class="flex items-center gap-2"
+    >
+      <a
+        class="p-2 text-blue-700 dark:text-blue-400"
+        href="/"
+      >
+        <svg
+          aria-hidden="true"
+          class="lucide lucide-house h-8 w-8"
+          fill="none"
+          height="24"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"
+          />
+          <path
+            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+          />
+        </svg>
+      </a>
+      <div>
+        <div
+          class="block md:hidden"
+        >
+          <div
+            class="flex justify-end items-center space-x-2"
+          >
+            <div>
+              <input
+                class="hidden"
+                id="toggle"
+                name=""
+                type="checkbox"
+              />
+              <span
+                class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="absolute left-1 h-6 w-6 transition duration-500 text-gray-800 text-opacity-0 dark:text-opacity-100"
+                  data-slot="icon"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 2ZM10 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 15ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM15.657 5.404a.75.75 0 1 0-1.06-1.06l-1.061 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM6.464 14.596a.75.75 0 1 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM18 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 18 10ZM5 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 5 10ZM14.596 15.657a.75.75 0 0 0 1.06-1.06l-1.06-1.061a.75.75 0 1 0-1.06 1.06l1.06 1.06ZM5.404 6.464a.75.75 0 0 0 1.06-1.06l-1.06-1.06a.75.75 0 1 0-1.061 1.06l1.06 1.06Z"
+                  />
+                </svg>
+                <div
+                  class="w-6 h-6 bg-blue-800 rounded-full shadow-md transition duration-500 dark:transform dark:translate-x-6 "
+                />
+                <svg
+                  aria-hidden="true"
+                  class="absolute right-1 h-5 w-5 transition duration-500 text-gray-800 text-opacity-100 dark:text-opacity-0"
+                  data-slot="icon"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    clip-rule="evenodd"
+                    d="M7.455 2.004a.75.75 0 0 1 .26.77 7 7 0 0 0 9.958 7.967.75.75 0 0 1 1.067.853A8.5 8.5 0 1 1 6.647 1.921a.75.75 0 0 1 .808.083Z"
+                    fill-rule="evenodd"
+                  />
+                </svg>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="hidden md:block"
+        >
+          <div
+            class="flex justify-end items-center space-x-2"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6 transition duration-500 dark:text-gray-300"
+              data-slot="icon"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 2ZM10 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 15ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM15.657 5.404a.75.75 0 1 0-1.06-1.06l-1.061 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM6.464 14.596a.75.75 0 1 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM18 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 18 10ZM5 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 5 10ZM14.596 15.657a.75.75 0 0 0 1.06-1.06l-1.06-1.061a.75.75 0 1 0-1.06 1.06l1.06 1.06ZM5.404 6.464a.75.75 0 0 0 1.06-1.06l-1.06-1.06a.75.75 0 1 0-1.061 1.06l1.06 1.06Z"
+              />
+            </svg>
+            <div>
+              <input
+                class="hidden"
+                id="toggle"
+                name=""
+                type="checkbox"
+              />
+              <span
+                class="w-9 h-5 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+              >
+                <div
+                  class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-100 dark:transform dark:translate-x-3"
+                />
+              </span>
+            </div>
+            <svg
+              aria-hidden="true"
+              class="h-5 w-5 transition duration-500 dark:text-gray-300 "
+              data-slot="icon"
+              fill="currentColor"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M7.455 2.004a.75.75 0 0 1 .26.77 7 7 0 0 0 9.958 7.967.75.75 0 0 1 1.067.853A8.5 8.5 0 1 1 6.647 1.921a.75.75 0 0 1 .808.083Z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex items-center gap-2 lg:gap-12"
+    >
+      <a
+        class="desktop-nav-link"
+        href="/cv/presentation"
+      >
+        presentation
+      </a>
+      <a
+        class="desktop-nav-link"
+        href="/cv/skills_strenghts"
+      >
+        skills
+      </a>
+      <a
+        class="desktop-nav-link"
+        href="/cv/experience"
+      >
+        experience
+      </a>
+    </div>
+    <div
+      class="flex items-center gap-4"
+    >
+      <a
+        href="https://www.linkedin.com/in/francisco-zavala/"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          data-testid="linkedin-icon"
+        />
+      </a>
+      <a
+        href="https://github.com/PacoZG"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          data-testid="github-icon"
+        />
+      </a>
+      <a
+        href="https://wa.me/358449888032?text=I%20would%20love%20to%20contact%20you%20for%20a%20possible%20interview."
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <div
+          data-testid="whatsapp-icon"
+        />
+      </a>
+      <button
+        class="pc-lang-text-style"
+      >
+        ESP
+      </button>
+    </div>
+  </div>
+</div>
+`;

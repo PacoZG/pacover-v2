@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`WhatYouGet component > matches the snapshot 1`] = `
+exports[`WhatYouGet > given configured with dependencies > WhatYouGet component > matches the snapshot 1`] = `
 <div>
   <div
     class="page-layout"
@@ -23,6 +23,77 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
         <div
           class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-6 gap-1 sm:gap-2 md:gap-4 lg:gap-6 py-5 w-full border-b-2 border-gray-300 dark:border-gray-700"
         >
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo object-contain"
+                height="2500"
+                viewBox="0 0 400 400"
+                width="2500"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 200V0h400v400H0"
+                  style="fill: #007acc;"
+                />
+                <path
+                  d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1z"
+                  style="fill: #fff;"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                TypeScript
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo"
+                clip-rule="evenodd"
+                fill-rule="evenodd"
+                image-rendering="optimizeQuality"
+                shape-rendering="geometricPrecision"
+                text-rendering="geometricPrecision"
+                viewBox="0 0 333334 268125"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="m212126 74104 10677 183 29010-29011 1406-12291C229395 11715 198568-27 166631 1 106527 1 55798 40897 40782 96293c3167-2209 9937-552 9937-552l57969-9531s2979-4932 4489-4687c13706-15059 33128-23638 53489-23630 17188 36 33021 6109 45459 16156v56h1z"
+                  fill="#ea4335"
+                />
+                <path
+                  d="M292553 96355c-6735-24844-20615-46781-39349-63422l-41078 41078c16459 13281 27016 33604 27016 56354v7250c19984 0 36219 16271 36219 36219 0 19984-16271 36219-36219 36219h-72438l-7250 7292v43469l7250 7213h72438c51989-73 94115-42198 94193-94187-37-32057-16146-60417-40781-77479v-5z"
+                  fill="#4285f4"
+                />
+                <path
+                  d="M94193 268125h72396v-58020H94193c-5144 1-10227-1104-14906-3240l-10453 3203-29010 29010-2541 9792c16348 12472 36343 19224 56906 19214l5 41z"
+                  fill="#34a853"
+                />
+                <path
+                  d="M94193 79688C42204 79813 73 121938 0 173928c0 30589 14652 57787 37323 75016l41999-42000c-12984-5856-21337-18772-21349-33016 0-19984 16271-36219 36219-36219 14687 0 27313 8854 33021 21355l42000-42000c-17224-22672-44427-37323-75015-37323z"
+                  fill="#fbbc05"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-yellow-600"
+              >
+                Google Cloud
+              </p>
+            </a>
+          </div>
           <div>
             <a
               class="skill-card"
@@ -74,6 +145,58 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
                 class="skill-text dark:text-blue-300"
               >
                 React
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png"
+              rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
+              target="_blank"
+            >
+              <svg
+                class="skill-logo bg-transparent"
+                viewBox="0 0 122.88 88.17"
+                xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M121.68 33.34c-.34-.28-3.42-2.62-10.03-2.62-1.71 0-3.48.17-5.19.46-1.25-8.72-8.49-12.94-8.78-13.16l-1.77-1.03-1.14 1.65a24.3 24.3 0 0 0-3.13 7.29c-1.2 4.96-.46 9.63 2.05 13.62-3.02 1.71-7.92 2.11-8.95 2.17H3.81a3.82 3.82 0 0 0-3.82 3.82 57.8 57.8 0 0 0 3.53 20.8c2.79 7.29 6.95 12.71 12.31 16.01 6.04 3.7 15.9 5.81 27.01 5.81 5.01 0 10.03-.46 14.99-1.37 6.9-1.25 13.51-3.65 19.6-7.12a53.7 53.7 0 0 0 13.34-10.94c6.44-7.24 10.26-15.33 13.05-22.51h1.14c7.01 0 11.34-2.79 13.73-5.19 1.6-1.48 2.79-3.31 3.65-5.36l.51-1.48zm-50.09 6.04h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H71.59c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-15.1-27.75h10.83c.51 0 .97-.4.97-.97V.97c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .51.45.97.97.97m0 13.9h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .52.45.97.97.97m-14.99 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .52.4.97.97.97m-15.22 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.52.46.97.97.97m30.21 13.85h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .57.45.97.97.97m-14.99 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .57.4.97.97.97m-15.22 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-14.93 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H11.35c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97"
+                  style="fill: #0091e2;"
+                />
+              </svg>
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                Docker
+              </p>
+            </a>
+          </div>
+          <div>
+            <a
+              class="skill-card"
+              href=""
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <img
+                alt="Kubernetes Logo"
+                class="skill-logo object-contain "
+                data-nimg="1"
+                decoding="async"
+                height="600"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75 2x"
+                style="color: transparent;"
+                width="600"
+              />
+              <p
+                class="skill-text dark:text-blue-500"
+              >
+                Kubernetes
               </p>
             </a>
           </div>
@@ -162,62 +285,6 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
                 class="skill-text dark:text-pink-700"
               >
                 React-Native
-              </p>
-            </a>
-          </div>
-          <div>
-            <a
-              class="skill-card"
-              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png"
-              rel="noopener noreferrer"
-              skill-tool-tip-msg="click-for-certificate"
-              target="_blank"
-            >
-              <svg
-                class="skill-logo object-contain"
-                height="2500"
-                viewBox="0 0 400 400"
-                width="2500"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M0 200V0h400v400H0"
-                  style="fill: #007acc;"
-                />
-                <path
-                  d="M87.7 200.7V217h52v148h36.9V217h52v-16c0-9 0-16.3-.4-16.5 0-.3-31.7-.4-70.2-.4l-70 .3v16.4zM321.4 184c10.2 2.4 18 7 25 14.3 3.7 4 9.2 11 9.6 12.8 0 .6-17.3 12.3-27.8 18.8-.4.3-2-1.4-3.6-4-5.2-7.4-10.5-10.6-18.8-11.2-12-.8-20 5.5-20 16 0 3.2.6 5 1.8 7.6 2.7 5.5 7.7 8.8 23.2 15.6 28.6 12.3 41 20.4 48.5 32 8.5 13 10.4 33.4 4.7 48.7-6.4 16.7-22 28-44.3 31.7-7 1.2-23 1-30.5-.3-16-3-31.3-11-40.7-21.3-3.7-4-10.8-14.7-10.4-15.4l3.8-2.4 15-8.7 11.3-6.6 2.6 3.5c3.3 5.2 10.7 12.2 15 14.6 13 6.7 30.4 5.8 39-2 3.7-3.4 5.3-7 5.3-12 0-4.6-.7-6.7-3-10.2-3.2-4.4-9.6-8-27.6-16-20.7-8.8-29.5-14.4-37.7-23-4.7-5.2-9-13.3-11-20-1.5-5.8-2-20-.6-25.7 4.3-20 19.4-34 41-38 7-1.4 23.5-.8 30.4 1z"
-                  style="fill: #fff;"
-                />
-              </svg>
-              <p
-                class="skill-text dark:text-blue-500"
-              >
-                TypeScript
-              </p>
-            </a>
-          </div>
-          <div>
-            <a
-              class="skill-card"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="HTML Logo"
-                class="skill-logo object-contain "
-                data-nimg="1"
-                decoding="async"
-                height="600"
-                loading="lazy"
-                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=1200&q=75"
-                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F344%2Fhtml-5--v1.png&w=1200&q=75 2x"
-                style="color: transparent;"
-                width="600"
-              />
-              <p
-                class="skill-text dark:text-yellow-600"
-              >
-                HTML
               </p>
             </a>
           </div>
@@ -515,58 +582,6 @@ exports[`WhatYouGet component > matches the snapshot 1`] = `
                 class="skill-text dark:text-gray-200"
               >
                 Cypress.io
-              </p>
-            </a>
-          </div>
-          <div>
-            <a
-              class="skill-card"
-              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png"
-              rel="noopener noreferrer"
-              skill-tool-tip-msg="click-for-certificate"
-              target="_blank"
-            >
-              <svg
-                class="skill-logo bg-transparent"
-                viewBox="0 0 122.88 88.17"
-                xml:space="preserve"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M121.68 33.34c-.34-.28-3.42-2.62-10.03-2.62-1.71 0-3.48.17-5.19.46-1.25-8.72-8.49-12.94-8.78-13.16l-1.77-1.03-1.14 1.65a24.3 24.3 0 0 0-3.13 7.29c-1.2 4.96-.46 9.63 2.05 13.62-3.02 1.71-7.92 2.11-8.95 2.17H3.81a3.82 3.82 0 0 0-3.82 3.82 57.8 57.8 0 0 0 3.53 20.8c2.79 7.29 6.95 12.71 12.31 16.01 6.04 3.7 15.9 5.81 27.01 5.81 5.01 0 10.03-.46 14.99-1.37 6.9-1.25 13.51-3.65 19.6-7.12a53.7 53.7 0 0 0 13.34-10.94c6.44-7.24 10.26-15.33 13.05-22.51h1.14c7.01 0 11.34-2.79 13.73-5.19 1.6-1.48 2.79-3.31 3.65-5.36l.51-1.48zm-50.09 6.04h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H71.59c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-15.1-27.75h10.83c.51 0 .97-.4.97-.97V.97c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .51.45.97.97.97m0 13.9h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.46-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .52.45.97.97.97m-14.99 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .52.4.97.97.97m-15.22 0h10.83c.51 0 .97-.46.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.52.46.97.97.97m30.21 13.85h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H56.49c-.51 0-.97.4-.97.97v9.69c0 .57.45.97.97.97m-14.99 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H41.5c-.51 0-.97.4-.97.97v9.69c0 .57.4.97.97.97m-15.22 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H26.28c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97m-14.93 0h10.83c.51 0 .97-.4.97-.97v-9.69c0-.51-.4-.97-.97-.97H11.35c-.51 0-.97.4-.97.97v9.69c.06.57.46.97.97.97"
-                  style="fill: #0091e2;"
-                />
-              </svg>
-              <p
-                class="skill-text dark:text-blue-500"
-              >
-                Docker
-              </p>
-            </a>
-          </div>
-          <div>
-            <a
-              class="skill-card"
-              href=""
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              <img
-                alt="Kubernetes Logo"
-                class="skill-logo object-contain "
-                data-nimg="1"
-                decoding="async"
-                height="600"
-                loading="lazy"
-                src="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75"
-                srcset="/_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=640&q=75 1x, /_next/image?url=https%3A%2F%2Fimg.icons8.com%2Fcolor%2F600%2F000000%2Fkubernetes.png&w=1200&q=75 2x"
-                style="color: transparent;"
-                width="600"
-              />
-              <p
-                class="skill-text dark:text-blue-500"
-              >
-                Kubernetes
               </p>
             </a>
           </div>

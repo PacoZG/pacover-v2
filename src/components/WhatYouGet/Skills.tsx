@@ -3,8 +3,8 @@ import React from 'react'
 import './skill-style.css'
 import { useTranslations } from 'next-intl'
 import IconImage from '@/components/WhatYouGet/IconImage/IconImage'
-import { technologies } from '@/components/WhatYouGet/technologies'
-import { strengthsList } from '@/components/WhatYouGet/strengthsList'
+import { technologies } from '@/components/WhatYouGet/resources/technologies'
+import { strengthsList } from '@/components/WhatYouGet/resources/strengthsList'
 
 const Skills = () => {
   const t = useTranslations('skills')

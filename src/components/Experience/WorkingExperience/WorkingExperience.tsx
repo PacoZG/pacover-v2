@@ -1,6 +1,6 @@
 import React from 'react'
-import WorkingCompany from '@/components/Experience/WorkingCompany'
 import { useTranslations } from 'next-intl'
+import WorkingCompany from '@/components/Experience/WorkingCompany/WorkingCompany'
 
 const WorkingExperience: React.FC = () => {
   const t = useTranslations('experience')

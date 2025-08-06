@@ -3,9 +3,9 @@ import { Link } from '@/i18n/navigation'
 import { Home } from 'lucide-react'
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
 import { useTranslations } from 'next-intl'
-import Toggle from '@/components/Toggle'
 import GitHub from '@/components/icons/Github'
 import { LanguageModel } from '@/utils/language/LanguageModel'
+import Toggle from '@/components/Toggle/Toggle'
 
 const DesktopView = () => {
   const t = useTranslations('Header')

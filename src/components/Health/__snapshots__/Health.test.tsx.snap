@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Health component > matches the snapshot 1`] = `
+exports[`Health > given configured with dependencies > Health component > matches the snapshot 1`] = `
 <div>
   <div
     class="page-layout"

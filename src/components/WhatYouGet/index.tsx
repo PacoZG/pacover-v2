@@ -2,8 +2,8 @@
 
 import React, { useEffect } from 'react'
 import { useTranslations } from 'next-intl'
-import Strengths from '@/components/WhatYouGet/Strengths'
 import Skills from '@/components/WhatYouGet/Skills'
+import Strengths from '@/components/WhatYouGet/Strengths/Strengths'
 
 const WhatYouGet: React.FC = () => {
   const t = useTranslations('stickers')

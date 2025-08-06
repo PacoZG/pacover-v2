@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslations } from 'next-intl'
-import './education-style.css'
+import '../education-style.css'
 
 const Education: React.FC = () => {
   const t = useTranslations('education')

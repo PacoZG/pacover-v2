@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Experience component > matches the snapshot 1`] = `
+exports[`Experience > given configured with dependencies > Experience component > matches the snapshot 1`] = `
 <div>
   <div
     class="page-layout"

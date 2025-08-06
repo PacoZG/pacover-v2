@@ -7,7 +7,8 @@ import {
   Redux,
   SQLLogo,
   TailwindCss,
-  Typescript
+  Typescript,
+  GoogleCloud
 } from '@/components/icons'
 
 type Technologies = {
@@ -23,6 +24,24 @@ type Technologies = {
 
 
 export const technologies: Technologies[] = [
+  {
+    name: 'TypeScript',
+    certUrl:
+      'https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png',
+    altName: 'TypeScript Logo',
+    imageExtraStyle: 'object-contain',
+    darkThemeTextColour: 'dark:text-blue-500',
+    skillToolTipMsg: true,
+    IconComponent: <Typescript className="skill-logo object-contain" />
+  },
+  {
+    name: 'Google Cloud',
+    altName: 'HTML Logo',
+    darkThemeTextColour: 'dark:text-yellow-600',
+    skillToolTipMsg: false,
+    IconComponent: <GoogleCloud className="skill-logo" />,
+    imageExtraStyle: ""
+  },
   {
     name: 'Javascript',
     certUrl:
@@ -42,6 +61,24 @@ export const technologies: Technologies[] = [
     imageExtraStyle: 'object-contain',
     darkThemeTextColour: 'dark:text-blue-300',
     skillToolTipMsg: true,
+  },
+  {
+    name: 'Docker',
+    certUrl: 'https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png',
+    altName: 'Docker Logo',
+    darkThemeTextColour: 'dark:text-blue-500',
+    IconComponent: <DockerLogo className="skill-logo bg-transparent" />,
+    skillToolTipMsg: true,
+    imageExtraStyle: ""
+  },
+  {
+    name: 'Kubernetes',
+    certUrl: '',
+    imageUrl: 'https://img.icons8.com/color/600/000000/kubernetes.png',
+    altName: 'Kubernetes Logo',
+    darkThemeTextColour: 'dark:text-blue-500',
+    skillToolTipMsg: false,
+    imageExtraStyle: ""
   },
   {
       name: 'Redux',
@@ -71,24 +108,6 @@ export const technologies: Technologies[] = [
     imageExtraStyle: 'object-contain',
     darkThemeTextColour: 'dark:text-pink-700',
     skillToolTipMsg: true,
-  },
-  {
-    name: 'TypeScript',
-    certUrl:
-      'https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117644/eawik5gh4ahctjy39sby.png',
-    altName: 'TypeScript Logo',
-    imageExtraStyle: 'object-contain',
-    darkThemeTextColour: 'dark:text-blue-500',
-    skillToolTipMsg: true,
-    IconComponent: <Typescript className="skill-logo object-contain" />
-  },
-  {
-      name: 'HTML',
-      imageUrl: 'https://img.icons8.com/color/344/html-5--v1.png',
-      altName: 'HTML Logo',
-      darkThemeTextColour: 'dark:text-yellow-600',
-      skillToolTipMsg: false,
-      imageExtraStyle: ""
   },
   {
       name: 'CSS',
@@ -141,24 +160,6 @@ export const technologies: Technologies[] = [
       darkThemeTextColour: 'dark:text-gray-200',
       IconComponent: <Cypress className="skill-logo" />,
       skillToolTipMsg: true,
-      imageExtraStyle: ""
-  },
-  {
-      name: 'Docker',
-      certUrl: 'https://res.cloudinary.com/dbn5gpgi5/image/upload/v1681117643/q26fq714x9njo4pxskps.png',
-      altName: 'Docker Logo',
-      darkThemeTextColour: 'dark:text-blue-500',
-      IconComponent: <DockerLogo className="skill-logo bg-transparent" />,
-      skillToolTipMsg: true,
-      imageExtraStyle: ""
-  },
-  {
-      name: 'Kubernetes',
-      certUrl: '',
-      imageUrl: 'https://img.icons8.com/color/600/000000/kubernetes.png',
-      altName: 'Kubernetes Logo',
-      darkThemeTextColour: 'dark:text-blue-500',
-      skillToolTipMsg: false,
       imageExtraStyle: ""
   },
   {

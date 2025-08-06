@@ -1,0 +1,123 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Health > given configured with dependencies > Education component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="flex flex-col items-center p-4 md:py-10 lg:py-20"
+  >
+    <div
+      class="flex flex-col items-center bg-gray-600 dark:bg-gray-900 w-full sm:w-11/12 lg:w-2/3 transition duration-500 rounded-xl bg-opacity-70 p-4"
+    >
+      <div
+        class="education-card"
+      >
+        <h1
+          class="education-card-title"
+        >
+          <a
+            class="education-link"
+            href="https://devopswithkubernetes.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            line12
+          </a>
+        </h1>
+        <p
+          class="education-card-description"
+        >
+          line11
+        </p>
+      </div>
+      <div
+        class="education-card"
+      >
+        <h1
+          class="education-card-title"
+        >
+          <a
+            class="education-link"
+            href="https://devopswithdocker.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            line10
+          </a>
+        </h1>
+        <p
+          class="education-card-description"
+        >
+          line9
+        </p>
+      </div>
+      <div
+        class="education-card"
+      >
+        <h1
+          class="education-card-title"
+        >
+          <a
+            class="education-link"
+            href="https://fullstackopen.com/en/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            line8
+          </a>
+        </h1>
+        <p
+          class="education-card-description"
+        >
+          line7
+        </p>
+      </div>
+      <div
+        class="education-card"
+      >
+        <h1
+          class="education-card-title"
+        >
+          line6
+        </h1>
+        <p
+          class="education-card-description"
+        >
+          line5
+        </p>
+        <a
+          class="education-link-secondary"
+          education-tool-tip-msg="tool-tip-msg"
+          href="https://www.aalto.fi/en/school-of-electrical-engineering"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          line4
+        </a>
+      </div>
+      <div
+        class="education-card"
+      >
+        <h1
+          class="education-card-title"
+        >
+          line3
+        </h1>
+        <p
+          class="education-card-description"
+        >
+          line2
+        </p>
+        <a
+          class="education-link-secondary"
+          education-tool-tip-msg="tool-tip-msg"
+          href="http://www.upct.es"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          line1
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

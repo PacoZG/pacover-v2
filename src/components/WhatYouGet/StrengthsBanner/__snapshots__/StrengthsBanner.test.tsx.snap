@@ -1,0 +1,14 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`StrengthsBanner > StrengthsBanner component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="strengths-banner"
+  >
+    <symbol />
+    <p
+      class="strengths-text"
+    />
+  </div>
+</div>
+`;

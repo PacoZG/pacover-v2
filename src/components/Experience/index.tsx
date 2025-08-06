@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect } from 'react'
-import WorkingExperience from '@/components/Experience/WorkingExperience'
 import { useTranslations } from 'next-intl'
+import WorkingExperience from '@/components/Experience/WorkingExperience/WorkingExperience'
 
 const Experience: () => React.JSX.Element = () => {
   const t = useTranslations('stickers')

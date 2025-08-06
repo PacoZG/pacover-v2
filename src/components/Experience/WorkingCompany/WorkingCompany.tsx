@@ -1,6 +1,6 @@
 import React from 'react'
-import './experience-style.css'
 import { useTranslations } from 'next-intl'
+import '../experience-style.css'
 
 interface Experience {
   company: string

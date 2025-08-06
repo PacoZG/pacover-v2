@@ -82,7 +82,9 @@ const FreelanceMainPage: React.FC = () => {
           className="absolute inset-0 w-full h-full object-cover z-0"
           width={96}
           height={96}
+          unoptimized
         />
+
         <div className="absolute inset-0 bg-black bg-opacity-60 dark:bg-opacity-70 z-10"></div>
 
         <div className="relative z-20 max-w-4xl px-4 py-8 rounded-xl bg-gray-600 dark:bg-gray-900 bg-opacity-70 dark:bg-opacity-70 backdrop-blur-sm shadow-lg">

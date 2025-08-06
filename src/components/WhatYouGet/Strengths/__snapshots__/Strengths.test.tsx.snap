@@ -1,0 +1,155 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Strengths > Strengths component > matches the snapshot 1`] = `
+<div>
+  <div
+    class="bg-gray-400 dark:bg-gray-900 flex flex-col items-center p-4 md:py-10 lg:py-20 transition duration-500 rounded-b-xl bg-opacity-70 dark:bg-opacity-70"
+  >
+    <div
+      class="w-full sm:w-11/12 lg:w-2/3"
+    >
+      <div
+        class="accordion-card"
+      >
+        <button
+          class="flex items-center justify-between w-full p-0"
+        >
+          <p
+            class="accordion-title"
+          >
+            strength1
+          </p>
+          <div
+            class="transition duration-300"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6 text-gray-500 dark:text-blue-300"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+             
+          </div>
+        </button>
+      </div>
+      <div
+        class="accordion-card"
+      >
+        <button
+          class="flex items-center justify-between w-full p-0"
+        >
+          <p
+            class="accordion-title"
+          >
+            strength2
+          </p>
+          <div
+            class="transition duration-300"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6 text-gray-500 dark:text-blue-300"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        class="accordion-card"
+      >
+        <button
+          class="flex items-center justify-between w-full p-0"
+        >
+          <p
+            class="accordion-title"
+          >
+            strength3
+          </p>
+          <div
+            class="transition duration-300"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6 text-gray-500 dark:text-blue-300"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        class="accordion-card"
+      >
+        <button
+          class="flex items-center justify-between w-full p-0"
+        >
+          <p
+            class="accordion-title"
+          >
+            HIGH
+             
+            <span
+              class="border-2 border-yellow-300 p-1 rounded-md"
+            >
+              5
+            </span>
+             
+            TEST
+          </p>
+          <div
+            class="transition duration-300"
+          >
+            <svg
+              aria-hidden="true"
+              class="h-6 w-6 text-gray-500 dark:text-blue-300"
+              data-slot="icon"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
