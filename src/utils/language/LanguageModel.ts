@@ -1,10 +1,10 @@
-'use client';
+'use client'
 
-import { useEffect, useState } from 'react';
-import { getLanguage, setLanguage } from "@/utils/localdb";
-import { usePathname, useRouter } from 'next/navigation'
+import { useEffect, useState } from 'react'
+import { getLanguage, setLanguage } from '@/utils/localdb'
+import { usePathname, useRouter } from '@/i18n/navigation'
 
-type Language = 'en' | 'es';
+type Language = 'en' | 'es'
 
 interface LanguageModelReturn {
   usersLanguage: Language;
@@ -12,41 +12,37 @@ interface LanguageModelReturn {
 }
 
 export const LanguageModel = (): LanguageModelReturn => {
-  const router = useRouter();
-  const pathname = usePathname(); // Get the current path *without* the locale prefix
+  const router = useRouter()
+  const pathname = usePathname() // Get the current path *without* the locale prefix
 
-  const [usersLanguage, setUsersLanguage] = useState<Language>('en');
+  const [usersLanguage, setUsersLanguage] = useState<Language>('en')
 
   useEffect(() => {
-    const storedLanguage = getLanguage(); // From localStorage
-    let effectiveLanguage: Language;
+    const storedLanguage = getLanguage() // From localStorage
+    let effectiveLanguage: Language
 
     if (storedLanguage) {
-      effectiveLanguage = storedLanguage;
+      effectiveLanguage = storedLanguage
     } else {
       const defaultBrowserLanguage: string =
-        window.navigator.language || (window.navigator as { userLanguage?: string }).userLanguage || 'en-US';
+        navigator.language || navigator.languages?.[0] || 'en-US'
+      const languageCode: Language = defaultBrowserLanguage.split('-')[0] as Language
+      effectiveLanguage = languageCode
 
-      if (defaultBrowserLanguage.startsWith('es')) {
-        effectiveLanguage = 'es';
-      } else {
-        effectiveLanguage = 'en';
-      }
-      setLanguage(effectiveLanguage);
+      setLanguage(languageCode)
     }
 
-    setUsersLanguage(effectiveLanguage);
-
-
-  }, []); // Empty dependency array: runs only once on mount
+    router.push(pathname, { locale: effectiveLanguage })
+    setUsersLanguage(effectiveLanguage)
+  }, [pathname, router]) // Empty dependency array: runs only once on mount
 
   const handleUsersLanguage = () => {
-    const newLanguage: Language = usersLanguage === 'en' ? 'es' : 'en';
-    setLanguage(newLanguage); // Update local storage
-    setUsersLanguage(newLanguage); // Update local state
+    const newLanguage: Language = usersLanguage === 'en' ? 'es' : 'en'
+    setLanguage(newLanguage) // Update local storage
+    setUsersLanguage(newLanguage) // Update local state
 
-    router.push(pathname, { locale: newLanguage });
-  };
+    router.push(pathname, { locale: newLanguage })
+  }
 
-  return { usersLanguage, handleUsersLanguage };
-};
+  return { usersLanguage, handleUsersLanguage }
+}
