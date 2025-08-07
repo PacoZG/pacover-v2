@@ -26,8 +26,9 @@ export const LanguageModel = (): LanguageModelReturn => {
     } else {
       const defaultBrowserLanguage: string =
         navigator.language || navigator.languages?.[0] || 'en-US'
-      const languageCode: Language = defaultBrowserLanguage.split('-')[0] as Language
-      effectiveLanguage = languageCode
+      const languageCode = defaultBrowserLanguage.split('-')[0]
+      const validLanguage: Language = languageCode === 'es' ? 'es' : 'en'
+      effectiveLanguage = validLanguage
 
       setLanguage(languageCode)
     }
