@@ -1,10 +1,13 @@
-import {useEffect, useState} from 'react'
-import {getTheme} from '../utils/localdb'
+import { useEffect, useState } from 'react'
+import { getTheme } from '../utils/localdb'
 
 export type Theme = 'light' | 'dark'
 
-const useDarkMode = (): [Theme, React.Dispatch<React.SetStateAction<Theme>>] => {
-  const usersTheme: Theme = (getTheme() as Theme) || 'light'
+const useDarkMode = (): [
+  Theme,
+  React.Dispatch<React.SetStateAction<Theme>>
+] => {
+  const usersTheme: Theme = getTheme() || 'light'
 
   // Use useState with the Theme type
   const [theme, setTheme] = useState<Theme>(usersTheme)
