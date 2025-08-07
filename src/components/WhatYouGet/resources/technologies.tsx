@@ -37,7 +37,7 @@ export const technologies: Technologies[] = [
   {
     name: 'Google Cloud',
     altName: 'HTML Logo',
-    darkThemeTextColour: 'dark:text-yellow-600',
+    darkThemeTextColour: 'dark:text-blue-400',
     skillToolTipMsg: false,
     IconComponent: <GoogleCloud className="skill-logo" />,
     imageExtraStyle: ""
