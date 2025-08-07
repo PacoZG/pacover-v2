@@ -88,7 +88,7 @@ exports[`WhatYouGet > given configured with dependencies > WhatYouGet component 
                 />
               </svg>
               <p
-                class="skill-text dark:text-yellow-600"
+                class="skill-text dark:text-blue-400"
               >
                 Google Cloud
               </p>
