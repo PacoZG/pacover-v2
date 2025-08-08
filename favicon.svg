@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 24 24" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+    <style>
+        /* A bit darker gray for light mode, light gray for dark mode */
+        .main-color { fill: #4B5563; }
+        .accent-color { fill: #3B82F6; }
+        /* Dark mode colors */
+        @media (prefers-color-scheme: dark) {
+        .main-color { fill: #E5E7EB; }
+        .accent-color { fill: #60A5FA; }
+        }
+    </style>
+    <!-- Border around the logo -->
+    <rect x="0" y="0" width="24" height="24" rx="4" ry="4" stroke="#D1D5DB"
+          stroke-width="1.5" fill="none"/>
+
+    <!-- Main shape: A bold, solid 'F' -->
+    <path class="main-color" d="M5 4H19V6H11V11H19V13H11V20H5V4Z"
+          fill-opacity="0.3"/>
+
+    <!-- Interlocking shape: A distinct, solid 'Z' -->
+    <path class="accent-color" d="M19.5 5.5L4.5 19.5H19.5V17.5H6.5L19.5 7.5Z"
+          fill-opacity="0.5"/>
+</svg>
