@@ -10,11 +10,9 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'jsdom',
-    reporters: ['default', 'junit'],
-    outputFile: resolve(__dirname, './coverage/junit.xml'),
+    reporters: ['default'],
     coverage: {
       enabled: false,
-      reporter: ['cobertura', 'text'],
       provider: 'istanbul',
       include: ['src/**/*.{ts,tsx,js,jsx}'],
       exclude: [
@@ -38,6 +36,9 @@ export default defineConfig({
         'src/**/**/*.types.ts',
         'src/**/**/**/types/**',
         'src/**/**/**/enums/**',
+        'src/i18n/**/**',
+        'src/app/[locale]/layout',
+        'src/utils/localdb',
       ],
     },
     cache: false,
