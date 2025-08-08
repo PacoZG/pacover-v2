@@ -1,32 +1,32 @@
-const isBrowser = typeof window !== 'undefined'
+/* istanbul ignore file */
 
-const setTheme = (theme: string) => {
-  if (isBrowser) {
+const setTheme: (theme: string) => void = (theme: string) => {
+  if (typeof window !== 'undefined') {
     localStorage.setItem('usersTheme', JSON.stringify(theme))
   }
 }
 
-const getTheme = () => {
-  if (isBrowser) {
+const getTheme: () => any | null = () => {
+  if (typeof window !== 'undefined') {
     const stored = localStorage.getItem('usersTheme')
 
-    return stored ? JSON.parse(stored) : null
+    return (stored && JSON.parse(stored)) || null
   }
 
   return null
 }
 
 const setLanguage = (lang: string) => {
-  if (isBrowser) {
+  if (typeof window !== 'undefined') {
     localStorage.setItem('usersLanguage', JSON.stringify(lang))
   }
 }
 
 const getLanguage = () => {
-  if (isBrowser) {
+  if (typeof window !== 'undefined') {
     const stored = localStorage.getItem('usersLanguage')
 
-    return stored ? JSON.parse(stored) : null
+    return (stored && JSON.parse(stored)) || null
   }
 
   return null

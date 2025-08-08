@@ -1,5 +1,6 @@
+import React from 'react'
 import { useEffect, useState } from 'react'
-import { getTheme } from '../utils/localdb'
+import { getTheme } from '@/utils/localdb'
 
 export type Theme = 'light' | 'dark'
 
@@ -9,7 +10,6 @@ const useDarkMode = (): [
 ] => {
   const usersTheme: Theme = getTheme() || 'light'
 
-  // Use useState with the Theme type
   const [theme, setTheme] = useState<Theme>(usersTheme)
 
   const colorTheme: Theme = theme === 'light' ? 'dark' : 'light'

@@ -1,25 +1,25 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { getLanguage, setLanguage } from '@/utils/localdb'
 import { usePathname, useRouter } from '@/i18n/navigation'
+import { getLanguage, setLanguage } from '@/utils/localdb'
 
 type Language = 'en' | 'es'
 
 interface LanguageModelReturn {
-  usersLanguage: Language;
-  handleUsersLanguage: () => void;
+  usersLanguage: string
+  handleUsersLanguage: () => void
 }
 
 export const LanguageModel = (): LanguageModelReturn => {
   const router = useRouter()
   const pathname = usePathname() // Get the current path *without* the locale prefix
 
-  const [usersLanguage, setUsersLanguage] = useState<Language>('en')
+  const [usersLanguage, setUsersLanguage] = useState<string>('en')
 
   useEffect(() => {
     const storedLanguage = getLanguage() // From localStorage
-    let effectiveLanguage: Language
+    let effectiveLanguage: string
 
     if (storedLanguage) {
       effectiveLanguage = storedLanguage
@@ -30,7 +30,7 @@ export const LanguageModel = (): LanguageModelReturn => {
       const validLanguage: Language = languageCode === 'es' ? 'es' : 'en'
       effectiveLanguage = validLanguage
 
-      setLanguage(languageCode)
+      setLanguage(effectiveLanguage)
     }
 
     router.push(pathname, { locale: effectiveLanguage })
