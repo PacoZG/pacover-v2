@@ -1,7 +1,8 @@
-import Presentation from "@/components/Presentation";
+import React from 'react'
+import Presentation from '@/components/Presentation'
 
-const PresentationPage = () => {
-  return <Presentation />;
-};
+const PresentationPage: React.FC = () => {
+  return <Presentation />
+}
 
-export default PresentationPage;
+export default PresentationPage

@@ -1,7 +1,8 @@
-import Experience from "@/components/Experience";
+import React from 'react'
+import Experience from '@/components/Experience'
 
-const ExperiencePage = () => {
-  return <Experience />;
-};
+const ExperiencePage: React.FC = () => {
+  return <Experience />
+}
 
-export default ExperiencePage;
+export default ExperiencePage

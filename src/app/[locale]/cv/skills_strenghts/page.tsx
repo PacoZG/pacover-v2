@@ -1,7 +1,8 @@
-import WhatYouGet from "@/components/WhatYouGet";
+import React from 'react'
+import WhatYouGet from '@/components/WhatYouGet'
 
-const SkillsStrengthsPage = () => {
-  return <WhatYouGet />;
-};
+const SkillsStrengthsPage: React.FC = () => {
+  return <WhatYouGet />
+}
 
-export default SkillsStrengthsPage;
+export default SkillsStrengthsPage
