@@ -32,6 +32,7 @@ const WorkingExperience: React.FC = () => {
         experience={getWorkingCompany(3)}
         link="https://www.hotelkamp.com/en/"
       />
+
       <WorkingCompany experience={getWorkingCompany(2)} />
 
       <WorkingCompany experience={getWorkingCompany(1)} />

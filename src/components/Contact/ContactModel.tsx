@@ -2,9 +2,9 @@
 
 import emailjs from '@emailjs/browser'
 import React, { useState } from 'react'
-import { getTheme } from '@/utils/localdb'
 import { useField } from '@/hooks/InputHooks'
 import logger from '@/utils/logger'
+import { getTheme } from '@/utils/localdb'
 
 type EmailValidation = () => boolean
 type HandleSendEmail = (event: React.FormEvent<HTMLFormElement>) => void
@@ -19,7 +19,7 @@ export const ContactModel = () => {
   const email = useField('email')
   const message = useField('text')
   const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''
-  const theme = getTheme()
+  const theme: string = getTheme()
   const log = logger()
 
   const buttonIsDisabled: DisableButton = () => {

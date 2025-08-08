@@ -11,16 +11,12 @@ import {
   Server,
   Settings,
 } from 'lucide-react'
-import { useTranslations } from 'next-intl'
 import Image from 'next/image'
+import { useTranslations } from 'next-intl'
 
 const FreelanceMainPage: React.FC = () => {
   const [showArrow, setShowArrow] = useState<boolean>(false)
   const t = useTranslations('freelance')
-
-  const handleCtaClick = () => {
-    setShowArrow(true)
-  }
 
   const services = [
     {
@@ -95,9 +91,12 @@ const FreelanceMainPage: React.FC = () => {
             {t('hero.subheadline')}
           </p>
           <a
+            data-testid="hero-link"
             href="#contact-form"
             className="mt-8 inline-block px-8 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-xl hover:bg-blue-700 transition duration-300"
-            onClick={handleCtaClick}
+            onClick={() => {
+              setShowArrow(true)
+            }}
           >
             {t('hero.button')}
           </a>
@@ -164,9 +163,12 @@ const FreelanceMainPage: React.FC = () => {
             {t('cta.subheadline')}
           </p>
           <a
+            data-testid="action-link"
             href="#contact-form"
             className="mt-8 inline-block px-10 py-4 text-xl font-semibold text-white bg-blue-600 rounded-lg shadow-xl hover:bg-blue-700 transition duration-300"
-            onClick={handleCtaClick}
+            onClick={() => {
+              setShowArrow(true)
+            }}
           >
             {t('cta.button')}
           </a>
@@ -174,7 +176,10 @@ const FreelanceMainPage: React.FC = () => {
 
         {showArrow && (
           <div className="absolute bottom-2 transform -translate-x-1/2 animate-bounce">
-            <ArrowDown className="h-10 w-10 text-blue-600 dark:text-blue-300" />
+            <ArrowDown
+              data-testid="arrow-down"
+              className="h-10 w-10 text-blue-600 dark:text-blue-300"
+            />
           </div>
         )}
       </div>

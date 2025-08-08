@@ -1,7 +1,8 @@
-import Health from "@/components/Health/Health";
+import React from 'react'
+import Health from '@/components/Health/Health'
 
-const HealthPage = () => {
-  return <Health />;
-};
+const HealthPage: React.FC = () => {
+  return <Health />
+}
 
-export default HealthPage;
+export default HealthPage

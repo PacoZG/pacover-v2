@@ -1,0 +1,7 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Layout > given configured with dependencies > Layout component > matches the snapshot 1`] = `
+<div>
+  <layout />
+</div>
+`;

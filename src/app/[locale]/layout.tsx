@@ -1,5 +1,5 @@
+/* istanbul ignore file */
 import React from 'react'
-
 import './globals.css'
 import { NextIntlClientProvider } from 'next-intl'
 import { getLocale, getMessages } from 'next-intl/server'
@@ -7,8 +7,8 @@ import Header from '@/components/Header'
 import Footer from '@/components/Footer/Footer'
 
 interface RootLayoutProps {
-  children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  children: React.ReactNode
+  params: Promise<{ locale: string }>
 }
 
 const RootLayout: React.FC<RootLayoutProps> = async ({ children }) => {

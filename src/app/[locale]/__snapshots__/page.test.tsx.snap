@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Freelance > given configured with dependencies > FreelanceMainPage > When called > takes a snapshot > matches the snapshot 1`] = `
+exports[`Main Page > given configured with dependencies > Main Page component > matches the snapshot 1`] = `
 <div>
   <div
     class="min-h-screen bg-gray-400 dark:bg-gray-900 text-gray-800 dark:text-gray-200 transition-colors duration-500"

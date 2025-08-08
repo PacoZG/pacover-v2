@@ -1,6 +1,6 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Experience > given configured with dependencies > WorkingCompany component > matches the snapshot 1`] = `
+exports[`Experience > given configured with dependencies > when called > WorkingCompany component > matches the snapshot with a link 1`] = `
 <div>
   <div
     class="experience-card"
@@ -14,18 +14,26 @@ exports[`Experience > given configured with dependencies > WorkingCompany compon
         <h1
           class="experience-card-title"
         >
-          some-company
+          <a
+            class="experience-card-link"
+            experience-tool-tip-msg="tool-tip-msg"
+            href="http://some-link"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Various Restaurants and Hotels
+          </a>
         </h1>
         <div
           class="experience-card-period"
         >
-          some-period
+          JANUARY 2007 - AUGUST 2020
         </div>
       </div>
       <div
         class="experience-card-position"
       >
-        some-position
+        Waiter, Front Desk & Kitchen Staff
       </div>
     </div>
     <div
@@ -37,7 +45,52 @@ exports[`Experience > given configured with dependencies > WorkingCompany compon
         <li
           class="text-gray-700 dark:text-gray-400"
         >
-          some-resp
+          Performed varied roles including waiter supervisor, cook, and dishwasher.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Experience > given configured with dependencies > when called > WorkingCompany component > matches the snapshot with no link 1`] = `
+<div>
+  <div
+    class="experience-card"
+  >
+    <div
+      class="flex flex-col"
+    >
+      <div
+        class="flex flex-col"
+      >
+        <h1
+          class="experience-card-title"
+        >
+          Various Restaurants and Hotels
+        </h1>
+        <div
+          class="experience-card-period"
+        >
+          JANUARY 2007 - AUGUST 2020
+        </div>
+      </div>
+      <div
+        class="experience-card-position"
+      >
+        Waiter, Front Desk & Kitchen Staff
+      </div>
+    </div>
+    <div
+      class="experience-card-responsibilities"
+    >
+      <ul
+        class="list-disc list-inside space-y-1"
+      >
+        <li
+          class="text-gray-700 dark:text-gray-400"
+        >
+          Performed varied roles including waiter supervisor, cook, and dishwasher.
         </li>
       </ul>
     </div>

@@ -2,15 +2,15 @@ import React from 'react'
 import { useTranslations } from 'next-intl'
 import '../experience-style.css'
 
-interface Experience {
+export type ExperienceProp = {
   company: string
   period: string
   position: string
   responsabilities: string
 }
 
-interface WorkingCompanyProps {
-  experience: Experience
+export type WorkingCompanyProps = {
+  experience: ExperienceProp
   link?: string
 }
 
@@ -18,8 +18,6 @@ const WorkingCompany: React.FC<WorkingCompanyProps> = ({ experience, link }) => 
   const t = useTranslations('experience')
 
   const getProcessedResponsibilities = (responsibilitiesContent: string) => {
-    if (typeof responsibilitiesContent === 'string') {
-
       const lines: string[] = responsibilitiesContent.split('\n').filter(line => line.trim() !== '')
 
       return (
@@ -31,9 +29,6 @@ const WorkingCompany: React.FC<WorkingCompanyProps> = ({ experience, link }) => 
           ))}
         </ul>
       )
-    }
-
-    return <p className="text-gray-700 dark:text-gray-400">{responsibilitiesContent}</p>
   }
 
   return (
