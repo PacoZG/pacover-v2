@@ -4,20 +4,30 @@
 
 ---
 
-🎯 I’m a developer with a background in **Communications Engineering**, passionate about crafting web apps and managing cloud-native infrastructure.
+🎯 I’m a developer with a background in **Communications Engineering**,
+passionate about crafting web apps and managing cloud-native infrastructure.
 
-🌍 Based in Finland 🇫🇮 | Live in Spain 🇪🇸 for 10 years | Originally from Mexico 🇲🇽
+🌍 Based in Finland 🇫🇮 | Live in Spain 🇪🇸 for 10 years | Originally from Mexico
+🇲🇽
 
-🌐 Check out my portfolio → [pacoderzavala.com][website]
+📖 Explore the documentation of my website
+
+<a href="https://pacoderzavala.com/en/docs" target="_blank">
+<img src="https://img.shields.io/badge/Documentation-Read-blueviolet?style=flat&logo=bookstack&logoColor=white" alt="Documentation" />
+</a>
+
 
 ---
 
 ## 🔧 Current Focus
 
-- 🚢 DevOps practices with **Kubernetes**, **Docker**, **Terraform**, and **GitOps**  
-- ☁️ Hands-on with **Google Cloud Platform (GCP)** but also very familiarised with **AWS**  
-- 🧠 Refining **TDD**, and embracing scalable architecture  
-- 🧭 2025 Goal: Grow as a cloud-native, DevOps-first engineer
+- 🚢 DevOps practices with **Kubernetes**, **Docker**, **Terraform**, and *
+  *GitOps**
+- ☁️ Hands-on with **Google Cloud Platform (GCP)** but also very familiarised
+  with **AWS**
+- 🧠 Refining **TDD**, and embracing scalable architecture
+- 🧭 2025 Goal: Grow as a cloud-native, DevOps-first engineer and refined my
+  Fullstack expertise
 
 ---
 
@@ -46,22 +56,24 @@
 
 ## 📦 Tooling & Practices
 
-- 🎨 Styling: **Tailwind CSS**, and raw CSS when needed  
-- 🔄 Code formatting: **Prettier** (`npm run fix-code-style`)  
-- 🌐 Routing: **React Router v7**  
-- 🌍 Translations: **i18next**   
+- 🎨 Styling: **Tailwind CSS**, and raw CSS when needed
+- 🔄 Code formatting: **Prettier** (`npm run fix-code-style`)
+- 🌐 Routing: **React Router v7**
+- 🌍 Translations: **i18next**
 - 🔗 Sharing: **react-share**
 
 ---
 
 ## 🌐 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)][linkedin]  
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][instagram]  
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)][linkedin]
+[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)][instagram]
 📫 Or reach out at [pacoderzavala.com][website]
 
 ---
 
 [website]: https://pacoderzavala.com
+
 [linkedin]: https://www.linkedin.com/in/francisco-zavala/
+
 [instagram]: https://www.instagram.com/sirpacoder
