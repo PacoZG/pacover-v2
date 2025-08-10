@@ -5,6 +5,7 @@ import React, { useState } from 'react'
 import { useField } from '@/hooks/InputHooks'
 import logger from '@/utils/logger'
 import { getTheme } from '@/utils/localdb'
+import { Theme } from '@/hooks/useDarkMode'
 
 type EmailValidation = () => boolean
 type HandleSendEmail = (event: React.FormEvent<HTMLFormElement>) => void
@@ -19,7 +20,7 @@ export const ContactModel = () => {
   const email = useField('email')
   const message = useField('text')
   const siteKey = process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ''
-  const theme: string = getTheme()
+  const theme: Theme = getTheme()
   const log = logger()
 
   const buttonIsDisabled: DisableButton = () => {
