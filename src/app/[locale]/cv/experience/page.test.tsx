@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import { beforeEach, describe, expect, test, vi } from 'vitest'
-import Page from '@/app/[locale]/cv/experience/page'
+import ExperiencePage from '@/app/[locale]/cv/experience/page'
 
 describe('Presentation Page', () => {
   describe('given configured with dependencies', () => {
@@ -15,7 +15,7 @@ describe('Presentation Page', () => {
 
     describe('Presentation Page component', () => {
       test('matches the snapshot', () => {
-        const { container } = render(<Page />)
+        const { container } = render(<ExperiencePage />)
 
         expect(container).toMatchSnapshot()
       })
