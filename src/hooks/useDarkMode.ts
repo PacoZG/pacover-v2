@@ -8,7 +8,7 @@ const useDarkMode = (): [
   Theme,
   React.Dispatch<React.SetStateAction<Theme>>
 ] => {
-  const usersTheme: Theme = getTheme() || 'light'
+  const usersTheme: Theme = getTheme() || 'dark'
 
   const [theme, setTheme] = useState<Theme>(usersTheme)
 
