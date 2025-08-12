@@ -2,400 +2,404 @@
 
 exports[`ProjectOverviewPage > given configured with dependencies > Project overview page component > matches the snapshot 1`] = `
 <div>
-  <section
-    class="py-20 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200"
+  <div
+    class="page-layout"
   >
-    <div
-      class="w-full sm:w-11/12 lg:w-9/12 mx-auto px-4 space-y-16"
+    <section
+      class="py-20 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-200"
     >
-      <div>
-        <h2
-          class="text-3xl sm:text-4xl font-bold text-center mb-8 flex items-center justify-center gap-3"
-        >
-          <svg
-            aria-hidden="true"
-            class="lucide lucide-folder-tree w-8 h-8 text-blue-600 dark:text-blue-300"
-            fill="none"
-            height="24"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
+      <div
+        class="w-full sm:w-11/12 lg:w-9/12 mx-auto px-4 space-y-16"
+      >
+        <div>
+          <h2
+            class="text-3xl sm:text-4xl font-bold text-center mb-8 flex items-center justify-center gap-3"
           >
-            <path
-              d="M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"
-            />
-            <path
-              d="M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"
-            />
-            <path
-              d="M3 5a2 2 0 0 0 2 2h3"
-            />
-            <path
-              d="M3 3v13a2 2 0 0 0 2 2h3"
-            />
-          </svg>
-          Project Structure
-        </h2>
-        <p
-          class="text-lg text-gray-700 dark:text-gray-400 text-center max-w-3xl mx-auto mb-10"
-        >
-          The project is organized into a modular, component-based structure to ensure scalability and maintainability.
-        </p>
-        <ul
-          class="space-y-4"
-        >
-          <li>
-            <span
-              class="font-semibold"
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-folder-tree w-8 h-8 text-blue-600 dark:text-blue-300"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              src/app/:
-            </span>
-             The main entry point for the Next.js application, containing the routing logic.
-          </li>
-          <li>
-            <span
-              class="font-semibold"
-            >
-              src/components/:
-            </span>
-             Holds all reusable and self-contained components (e.g., Header, Footer, Skills).
-          </li>
-          <li>
-            <span
-              class="font-semibold"
-            >
-              src/utils/:
-            </span>
-             Contains utility functions and assets, such as language translations (i18n) and SVG logos.
-          </li>
-          <li>
-            <span
-              class="font-semibold"
-            >
-              src/assets/:
-            </span>
-             Stores static assets like images and SVG files.
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2
-          class="text-3xl sm:text-4xl font-bold text-center mb-8 flex items-center justify-center gap-3"
-        >
-          <svg
-            aria-hidden="true"
-            class="lucide lucide-wrench w-8 h-8 text-blue-600 dark:text-blue-300"
-            fill="none"
-            height="24"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            width="24"
-            xmlns="http://www.w3.org/2000/svg"
+              <path
+                d="M20 10a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1h-2.5a1 1 0 0 1-.8-.4l-.9-1.2A1 1 0 0 0 15 3h-2a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"
+              />
+              <path
+                d="M20 21a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-2.9a1 1 0 0 1-.88-.55l-.42-.85a1 1 0 0 0-.92-.6H13a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1Z"
+              />
+              <path
+                d="M3 5a2 2 0 0 0 2 2h3"
+              />
+              <path
+                d="M3 3v13a2 2 0 0 0 2 2h3"
+              />
+            </svg>
+            Project Structure
+          </h2>
+          <p
+            class="text-lg text-gray-700 dark:text-gray-400 text-center max-w-3xl mx-auto mb-10"
           >
-            <path
-              d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"
-            />
-          </svg>
-          Customization & Configuration
-        </h2>
-        <div
-          class="space-y-10"
-        >
-          <div>
-            <h3
-              class="text-2xl font-semibold flex items-center gap-2"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-languages w-6 h-6 text-blue-500 dark:text-blue-300"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+            The project is organized into a modular, component-based structure to ensure scalability and maintainability.
+          </p>
+          <ul
+            class="space-y-4"
+          >
+            <li>
+              <span
+                class="font-semibold"
               >
-                <path
-                  d="m5 8 6 6"
-                />
-                <path
-                  d="m4 14 6-6 2-3"
-                />
-                <path
-                  d="M2 5h12"
-                />
-                <path
-                  d="M7 2h1"
-                />
-                <path
-                  d="m22 22-5-10-5 10"
-                />
-                <path
-                  d="M14 18h6"
-                />
-              </svg>
-              Translation
-            </h3>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              The application uses
-               
-              <code
-                class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                src/app/:
+              </span>
+               The main entry point for the Next.js application, containing the routing logic.
+            </li>
+            <li>
+              <span
+                class="font-semibold"
               >
-                next-intl
-              </code>
-               
-              and
-               
-              <code
-                class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                src/components/:
+              </span>
+               Holds all reusable and self-contained components (e.g., Header, Footer, Skills).
+            </li>
+            <li>
+              <span
+                class="font-semibold"
               >
-                next-i18n-router
-              </code>
-               
-              for internationalization. To change or add content, edit the translation files in
-               
-              <code
-                class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                src/utils/:
+              </span>
+               Contains utility functions and assets, such as language translations (i18n) and SVG logos.
+            </li>
+            <li>
+              <span
+                class="font-semibold"
               >
-                src/utils/language/
-              </code>
-              .
-            </p>
-            <ul
-              class="list-disc list-inside mt-2 ml-4"
+                src/assets/:
+              </span>
+               Stores static assets like images and SVG files.
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2
+            class="text-3xl sm:text-4xl font-bold text-center mb-8 flex items-center justify-center gap-3"
+          >
+            <svg
+              aria-hidden="true"
+              class="lucide lucide-wrench w-8 h-8 text-blue-600 dark:text-blue-300"
+              fill="none"
+              height="24"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              width="24"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <li>
-                <code>
-                  en/translations.json
-                </code>
-                : English strings
-              </li>
-              <li>
-                <code>
-                  es/translations.json
-                </code>
-                : Spanish strings
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h3
-              class="text-2xl font-semibold flex items-center gap-2"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-mail w-6 h-6 text-blue-500 dark:text-blue-300"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"
+              />
+            </svg>
+            Customization & Configuration
+          </h2>
+          <div
+            class="space-y-10"
+          >
+            <div>
+              <h3
+                class="text-2xl font-semibold flex items-center gap-2"
               >
-                <path
-                  d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
-                />
-                <rect
-                  height="16"
-                  rx="2"
-                  width="20"
-                  x="2"
-                  y="4"
-                />
-              </svg>
-              The Contact Form
-            </h3>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              Configured to use EmailJS. You’ll need to:
-            </p>
-            <ol
-              class="list-decimal list-inside mt-2 ml-4 space-y-1"
-            >
-              <li>
-                Sign up for an account on EmailJS.
-              </li>
-              <li>
-                Set up a new Email Service and Email Template.
-              </li>
-              <li>
-                Update the service ID, template ID, and public key in
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-languages w-6 h-6 text-blue-500 dark:text-blue-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m5 8 6 6"
+                  />
+                  <path
+                    d="m4 14 6-6 2-3"
+                  />
+                  <path
+                    d="M2 5h12"
+                  />
+                  <path
+                    d="M7 2h1"
+                  />
+                  <path
+                    d="m22 22-5-10-5 10"
+                  />
+                  <path
+                    d="M14 18h6"
+                  />
+                </svg>
+                Translation
+              </h3>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                The application uses
                  
                 <code
                   class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
                 >
-                  src/components/Contact/ContactModel.js
+                  next-intl
+                </code>
+                 
+                and
+                 
+                <code
+                  class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                >
+                  next-i18n-router
+                </code>
+                 
+                for internationalization. To change or add content, edit the translation files in
+                 
+                <code
+                  class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                >
+                  src/utils/language/
                 </code>
                 .
-              </li>
-            </ol>
-          </div>
-          <div>
-            <h3
-              class="text-2xl font-semibold flex items-center gap-2"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-paintbrush w-6 h-6 text-blue-500 dark:text-blue-300"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+              </p>
+              <ul
+                class="list-disc list-inside mt-2 ml-4"
               >
-                <path
-                  d="m14.622 17.897-10.68-2.913"
-                />
-                <path
-                  d="M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z"
-                />
-                <path
-                  d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15"
-                />
-              </svg>
-              Tailwind CSS
-            </h3>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              Styling is handled by Tailwind CSS. Modify the color palette, fonts, and other tokens in
-               
-              <code
-                class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                <li>
+                  <code>
+                    en/translations.json
+                  </code>
+                  : English strings
+                </li>
+                <li>
+                  <code>
+                    es/translations.json
+                  </code>
+                  : Spanish strings
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3
+                class="text-2xl font-semibold flex items-center gap-2"
               >
-                tailwind.config.js
-              </code>
-              . Custom styles (e.g., 
-              <code>
-                skill-style.css
-              </code>
-              ) are defined alongside their components.
-            </p>
-          </div>
-          <div>
-            <h3
-              class="text-2xl font-semibold flex items-center gap-2"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-rocket w-6 h-6 text-blue-500 dark:text-blue-300"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-mail w-6 h-6 text-blue-500 dark:text-blue-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"
+                  />
+                  <rect
+                    height="16"
+                    rx="2"
+                    width="20"
+                    x="2"
+                    y="4"
+                  />
+                </svg>
+                The Contact Form
+              </h3>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
               >
-                <path
-                  d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"
-                />
-                <path
-                  d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
-                />
-                <path
-                  d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"
-                />
-                <path
-                  d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
-                />
-              </svg>
-              Deployment
-            </h3>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              For a production build:
-            </p>
-            <pre
-              class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
-            >
-              npm run build
-            </pre>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              This generates a build folder for deployment to platforms like Vercel or Netlify.
-            </p>
-          </div>
-          <div>
-            <h3
-              class="text-2xl font-semibold flex items-center gap-2"
-            >
-              <svg
-                aria-hidden="true"
-                class="lucide lucide-square-check-big w-6 h-6 text-blue-500 dark:text-blue-300"
-                fill="none"
-                height="24"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                viewBox="0 0 24 24"
-                width="24"
-                xmlns="http://www.w3.org/2000/svg"
+                Configured to use EmailJS. You’ll need to:
+              </p>
+              <ol
+                class="list-decimal list-inside mt-2 ml-4 space-y-1"
               >
-                <path
-                  d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"
-                />
-                <path
-                  d="m9 11 3 3L22 4"
-                />
-              </svg>
-              Testing
-            </h3>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              Unit tests are implemented with Vitest:
-            </p>
-            <pre
-              class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
-            >
-              npm test
-            </pre>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              This runs all test suits .
-            </p>
-            <pre
-              class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
-            >
-              npm run coverage
-            </pre>
-            <p
-              class="mt-2 text-gray-700 dark:text-gray-400"
-            >
-              This runs all tests and provides a detailed report.
-            </p>
+                <li>
+                  Sign up for an account on EmailJS.
+                </li>
+                <li>
+                  Set up a new Email Service and Email Template.
+                </li>
+                <li>
+                  Update the service ID, template ID, and public key in
+                   
+                  <code
+                    class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                  >
+                    src/components/Contact/ContactModel.js
+                  </code>
+                  .
+                </li>
+              </ol>
+            </div>
+            <div>
+              <h3
+                class="text-2xl font-semibold flex items-center gap-2"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-paintbrush w-6 h-6 text-blue-500 dark:text-blue-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="m14.622 17.897-10.68-2.913"
+                  />
+                  <path
+                    d="M18.376 2.622a1 1 0 1 1 3.002 3.002L17.36 9.643a.5.5 0 0 0 0 .707l.944.944a2.41 2.41 0 0 1 0 3.408l-.944.944a.5.5 0 0 1-.707 0L8.354 7.348a.5.5 0 0 1 0-.707l.944-.944a2.41 2.41 0 0 1 3.408 0l.944.944a.5.5 0 0 0 .707 0z"
+                  />
+                  <path
+                    d="M9 8c-1.804 2.71-3.97 3.46-6.583 3.948a.507.507 0 0 0-.302.819l7.32 8.883a1 1 0 0 0 1.185.204C12.735 20.405 16 16.792 16 15"
+                  />
+                </svg>
+                Tailwind CSS
+              </h3>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                Styling is handled by Tailwind CSS. Modify the color palette, fonts, and other tokens in
+                 
+                <code
+                  class="bg-gray-200 dark:bg-gray-700 px-1 rounded"
+                >
+                  tailwind.config.js
+                </code>
+                . Custom styles (e.g., 
+                <code>
+                  skill-style.css
+                </code>
+                ) are defined alongside their components.
+              </p>
+            </div>
+            <div>
+              <h3
+                class="text-2xl font-semibold flex items-center gap-2"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-rocket w-6 h-6 text-blue-500 dark:text-blue-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"
+                  />
+                  <path
+                    d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"
+                  />
+                  <path
+                    d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"
+                  />
+                  <path
+                    d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"
+                  />
+                </svg>
+                Deployment
+              </h3>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                For a production build:
+              </p>
+              <pre
+                class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
+              >
+                npm run build
+              </pre>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                This generates a build folder for deployment to platforms like Vercel or Netlify.
+              </p>
+            </div>
+            <div>
+              <h3
+                class="text-2xl font-semibold flex items-center gap-2"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="lucide lucide-square-check-big w-6 h-6 text-blue-500 dark:text-blue-300"
+                  fill="none"
+                  height="24"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344"
+                  />
+                  <path
+                    d="m9 11 3 3L22 4"
+                  />
+                </svg>
+                Testing
+              </h3>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                Unit tests are implemented with Vitest:
+              </p>
+              <pre
+                class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
+              >
+                npm test
+              </pre>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                This runs all test suits .
+              </p>
+              <pre
+                class="bg-gray-200 dark:bg-gray-800 p-3 rounded text-sm mt-2"
+              >
+                npm run coverage
+              </pre>
+              <p
+                class="mt-2 text-gray-700 dark:text-gray-400"
+              >
+                This runs all tests and provides a detailed report.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 </div>
 `;

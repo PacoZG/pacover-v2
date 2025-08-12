@@ -30,13 +30,13 @@ exports[`Health > given configured with dependencies > WhoIAm component > matche
           <span
             class="text-blue-800 dark:text-blue-300 ml-2"
           >
-            FRANCISCO ZAVALA GONZALEZ
+            FRANCISCO ZAVALA
           </span>
         </h1>
         <p
           class="text-xl text-black dark:text-gray-300 transition duration-500 mb-4"
         >
-          Full Stack Developer
+          💻 Fullstack Developer (Node.js • React • TypeScript) | with DevOps & Cloud Experience (GCP • Kubernetes • CI/CD)
         </p>
         <p
           class="text-lg text-black dark:text-gray-300 transition duration-500 mb-2 leading-relaxed"
