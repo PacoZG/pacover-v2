@@ -177,8 +177,9 @@ exports[`WhatYouGet > given configured with dependencies > WhatYouGet component 
           <div>
             <a
               class="skill-card"
-              href=""
+              href="https://res.cloudinary.com/dbn5gpgi5/image/upload/v1754983669/wi5ihb6yp62yh6wfpfve.png"
               rel="noopener noreferrer"
+              skill-tool-tip-msg="click-for-certificate"
               target="_blank"
             >
               <img
