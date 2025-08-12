@@ -19,12 +19,13 @@ const WhoIAm: React.FC = () => {
           <h1 className="text-3xl text-black dark:text-gray-300 transition duration-500 mb-2 font-extrabold">
             {t('line0')}
             <span className="text-blue-800 dark:text-blue-300 ml-2">
-              FRANCISCO ZAVALA GONZALEZ
+              FRANCISCO ZAVALA
             </span>
           </h1>
 
           <p className="text-xl text-black dark:text-gray-300 transition duration-500 mb-4">
-            Full Stack Developer
+            💻 Fullstack Developer (Node.js • React • TypeScript) | with DevOps
+            & Cloud Experience (GCP • Kubernetes • CI/CD)
           </p>
 
           <p className="text-lg text-black dark:text-gray-300 transition duration-500 mb-2 leading-relaxed">
