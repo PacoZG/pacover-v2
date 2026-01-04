@@ -3,11 +3,27 @@ import createNextIntlPlugin from 'next-intl/plugin'
 
 const nextConfig: NextConfig = {
   images: {
-    domains: [
-      'img.icons8.com',
-      'placehold.co',
-      'res.cloudinary.com',
-      'cdn5.dcbstatic.com',
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'img.icons8.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'placehold.co',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn5.dcbstatic.com',
+        pathname: '/**',
+      },
     ],
   },
 }

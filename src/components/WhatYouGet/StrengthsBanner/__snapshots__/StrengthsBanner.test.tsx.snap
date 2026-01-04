@@ -5,7 +5,9 @@ exports[`StrengthsBanner > StrengthsBanner component > matches the snapshot 1`] 
   <div
     class="strengths-banner"
   >
-    <symbol />
+    <svg
+      data-testid="dummy-icon"
+    />
     <p
       class="strengths-text"
     />

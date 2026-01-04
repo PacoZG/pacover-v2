@@ -14,8 +14,10 @@ describe('StrengthsBanner', () => {
 
   describe('StrengthsBanner component', () => {
     test('matches the snapshot', () => {
+      const DummyIcon = () => <svg data-testid="dummy-icon" />
+
       const { container } = render(
-        <StrengthsBanner StrengthsIcon={'symbol'} translationKey={''} />
+        <StrengthsBanner StrengthsIcon={DummyIcon} translationKey={''} />
       )
 
       expect(container).toMatchSnapshot()
