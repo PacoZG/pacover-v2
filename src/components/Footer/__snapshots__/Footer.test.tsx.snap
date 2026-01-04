@@ -166,7 +166,7 @@ exports[`Footer > given configured with dependencies > Footer component > matche
           >
             <button
               class="react-share__ShareButton focus-within:outline-none"
-              style="background-color: transparent; padding: 0px; color: inherit; cursor: pointer;"
+              style="background-color: transparent; border: medium; padding: 0px; font: inherit; color: inherit; cursor: pointer;"
             >
               <svg
                 height="28"
@@ -187,7 +187,7 @@ exports[`Footer > given configured with dependencies > Footer component > matche
             </button>
             <button
               class="react-share__ShareButton focus-within:outline-none"
-              style="background-color: transparent; padding: 0px; color: inherit; cursor: pointer;"
+              style="background-color: transparent; border: medium; padding: 0px; font: inherit; color: inherit; cursor: pointer;"
             >
               <svg
                 height="28"
