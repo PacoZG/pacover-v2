@@ -142,7 +142,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
           <button
             class="mobile-lang-text-style"
           >
-            ESP
+            ES
           </button>
           <button
             class="p-2"
@@ -352,7 +352,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
         <button
           class="pc-lang-text-style"
         >
-          ESP
+          ES
         </button>
       </div>
     </div>
