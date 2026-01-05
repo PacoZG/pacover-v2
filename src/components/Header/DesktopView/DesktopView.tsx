@@ -64,7 +64,7 @@ const DesktopView = () => {
           className="pc-lang-text-style"
           onClick={useLanguageModel.handleUsersLanguage}
         >
-          {useLanguageModel.usersLanguage === 'en' ? 'ESP' : 'ENG'}
+          {useLanguageModel.usersLanguage === 'en' ? 'ES' : 'EN'}
         </button>
       </div>
     </div>

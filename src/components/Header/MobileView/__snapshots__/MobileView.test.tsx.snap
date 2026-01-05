@@ -139,7 +139,7 @@ exports[`Mobile > Given configured with dependencies > <MobileView /> > matches 
         <button
           class="mobile-lang-text-style"
         >
-          ESP
+          ES
         </button>
         <button
           class="p-2"
