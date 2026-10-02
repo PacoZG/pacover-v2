@@ -21,6 +21,7 @@ export const LanguageModel = (): LanguageModelReturn => {
 
     if (storedLanguage) {
       setUsersLanguage(storedLanguage)
+
       return
     }
 

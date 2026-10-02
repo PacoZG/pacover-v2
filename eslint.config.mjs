@@ -1,26 +1,24 @@
-import js from '@eslint/js'
 import { dirname } from 'path'
 import { fileURLToPath } from 'url'
-import { FlatCompat } from '@eslint/eslintrc'
 import typescriptEslint from '@typescript-eslint/eslint-plugin'
 import tsParser from '@typescript-eslint/parser'
 import globals from 'globals'
+import nextCoreWebVitals from 'eslint-config-next/core-web-vitals'
+import nextTypescript from 'eslint-config-next/typescript'
+import nextBase from 'eslint-config-next'
+import prettierConfig from 'eslint-config-prettier'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
-})
-
 const eslintConfig = [
-  ...compat.extends(
-    'next/core-web-vitals',
-    'next/typescript',
-    'next',
-    'prettier'
-  ),
+  // eslint-config-next ships native flat-config arrays as of Next.js 16, so
+  // they're spread directly rather than routed through FlatCompat (which
+  // caused a circular-structure crash when double-wrapping flat configs).
+  ...nextCoreWebVitals,
+  ...nextTypescript,
+  ...nextBase,
+  prettierConfig,
   {
     ignores: [
       '**/dist',
@@ -35,8 +33,6 @@ const eslintConfig = [
   {
     files: ['**/*.ts', '**/*.tsx'],
     plugins: {
-      'next': {},
-      'prettier': {},
       '@typescript-eslint': typescriptEslint,
     },
     languageOptions: {
