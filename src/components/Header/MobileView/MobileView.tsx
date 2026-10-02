@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from '@/i18n/navigation'
+import Link from 'next/link'
 import { Home } from 'lucide-react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/16/solid'
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
@@ -56,6 +56,7 @@ const MobileView = () => {
           {/* The full-screen overlay/background button */}
           <button
             id="langBackground-button"
+            aria-label="Close mobile menu"
             onClick={() => {
               setIsMobileMenuOpen(!isMobileMenuOpen)
             }}

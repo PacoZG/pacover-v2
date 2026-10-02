@@ -19,10 +19,10 @@ const DesktopView = () => {
         <div>
           <input type="checkbox" name="" id="toggle" className="hidden" />
           <span
-            className="w-9 h-5 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+            className="w-11 h-6 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
             onClick={handleTheme}
           >
-            <div className="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-100 dark:transform dark:translate-x-3"></div>
+            <div className="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-500 dark:transform dark:translate-x-5"></div>
           </span>
         </div>
 

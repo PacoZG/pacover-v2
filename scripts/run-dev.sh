@@ -21,6 +21,6 @@ open http://localhost:3000
 taskDone
 
 animate "Running development environment"
-next dev --turbopack
+npx next dev --turbopack
 taskDone
 

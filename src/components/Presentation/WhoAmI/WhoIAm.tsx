@@ -16,23 +16,23 @@ const WhoIAm: React.FC = () => {
           height={1024}
         />
         <div className="p-4 md:p-6 w-full lg:w-3/4 text-left lg:text-left xl:text-left">
-          <h1 className="text-3xl text-black dark:text-gray-300 transition duration-500 mb-2 font-extrabold">
+          <h1 className="text-3xl text-white dark:text-gray-200 transition duration-500 mb-2 font-extrabold">
             {t('line0')}
-            <span className="text-blue-800 dark:text-blue-300 ml-2">
+            <span className="text-blue-300 dark:text-blue-300 ml-2">
               FRANCISCO ZAVALA
             </span>
           </h1>
 
-          <p className="text-xl text-black dark:text-gray-300 transition duration-500 mb-4">
+          <p className="text-xl text-white dark:text-gray-200 transition duration-500 mb-4">
             💻 Fullstack Developer (Node.js • React • TypeScript) | with DevOps
             & Cloud Experience (GCP • Kubernetes • CI/CD)
           </p>
 
-          <p className="text-lg text-black dark:text-gray-300 transition duration-500 mb-2 leading-relaxed">
+          <p className="text-lg text-white dark:text-gray-200 transition duration-500 mb-2 leading-relaxed">
             {t('line1')}
           </p>
 
-          <p className="text-lg text-black dark:text-gray-300 transition duration-500 leading-relaxed">
+          <p className="text-lg text-white dark:text-gray-200 transition duration-500 leading-relaxed">
             {t('line2')}
           </p>
         </div>

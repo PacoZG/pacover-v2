@@ -9,16 +9,21 @@ a[experience-tool-tip-msg]::before {
     content: attr(experience-tool-tip-msg);
     position: absolute;
     width: max-content;
-    color: #e0e0e0; /* Lighter color for better contrast on dark background */
-    background-color: #333; /* Darker background for contrast */
+    color: #1f2937; /* gray-800, matches light-mode text */
+    background-color: #e5e7eb; /* gray-200 */
     font-size: 10px;
     padding: 2px 10px; /* Slightly more vertical padding */
     border-radius: 5px;
-    opacity: 0.8; /* Slightly more opaque for readability */
+    opacity: 0.9; /* Slightly more opaque for readability */
     bottom: 0%;
     left: 110px; /* Default for mobile/smaller screens */
     z-index: 10; /* Ensure tooltip is above other content */
     white-space: nowrap; /* Prevent text wrapping */
+}
+
+.dark a[experience-tool-tip-msg]::before {
+    color: #e5e7eb; /* gray-200, for contrast on dark background */
+    background-color: #1f2937; /* gray-800 */
 }
 
 @media (min-width: 768px) {
@@ -77,6 +82,6 @@ a[experience-tool-tip-msg]::before {
 }
 
 .experience-card-responsibilities {
-    @apply text-gray-700 dark:text-gray-400 border-t-2 border-gray-300 dark:border-gray-600 p-3 mt-3 text-justify leading-relaxed;
+    @apply text-gray-700 dark:text-gray-400 border-t-2 border-gray-300 dark:border-gray-600 p-3 mt-3 text-left md:text-justify leading-relaxed;
     /* Adjusted colors and line spacing */
 }

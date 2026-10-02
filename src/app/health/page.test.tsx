@@ -1,9 +1,10 @@
+/* eslint-disabled */
 import React from 'react'
 import { render } from '@testing-library/react'
 import { beforeEach, describe, expect, test, vi } from 'vitest'
-import PresentationPage from '@/app/[locale]/cv/presentation/page'
+import HealthPage from '@/app/health/Page'
 
-describe('Presentation Page', () => {
+describe('Health Page', () => {
   describe('given configured with dependencies', () => {
     beforeEach(() => {
       window.scrollTo = vi.fn()
@@ -13,9 +14,9 @@ describe('Presentation Page', () => {
       }))
     })
 
-    describe('Presentation Page component', () => {
+    describe('Health Page component', () => {
       test('matches the snapshot', () => {
-        const { container } = render(<PresentationPage />)
+        const { container } = render(<HealthPage />)
 
         expect(container).toMatchSnapshot()
       })

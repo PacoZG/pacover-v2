@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
   ArrowDown,
   CheckCircle,
@@ -17,6 +17,18 @@ import { useTranslations } from 'next-intl'
 const FreelanceMainPage: React.FC = () => {
   const [showArrow, setShowArrow] = useState<boolean>(false)
   const t = useTranslations('freelance')
+
+  // Auto-hide the bouncing arrow after a few seconds so the nudge doesn't
+  // loop indefinitely and become a distraction.
+  useEffect(() => {
+    if (!showArrow) return
+
+    const timeoutId = setTimeout(() => {
+      setShowArrow(false)
+    }, 3000)
+
+    return () => clearTimeout(timeoutId)
+  }, [showArrow])
 
   const services = [
     {

@@ -37,7 +37,7 @@ export default defineConfig({
         'src/**/**/**/types/**',
         'src/**/**/**/enums/**',
         'src/i18n/**/**',
-        'src/app/[locale]/layout',
+        'src/app/layout',
         'src/utils/localdb',
       ],
     },

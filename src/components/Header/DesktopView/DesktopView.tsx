@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from '@/i18n/navigation'
+import Link from 'next/link'
 import { Home } from 'lucide-react'
 import { LinkedinIcon, WhatsappIcon } from 'react-share'
 import { useTranslations } from 'next-intl'

@@ -8,17 +8,16 @@ import Footer from '@/components/Footer/Footer'
 
 interface RootLayoutProps {
   children: React.ReactNode
-  params: Promise<{ locale: string }>
 }
 
-const RootLayout: React.FC<RootLayoutProps> = async ({ children }) => {
+const RootLayout = async ({ children }: RootLayoutProps) => {
   const messages = await getMessages()
   const locale = await getLocale()
 
   return (
     <html lang={locale}>
       <body>
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="App">
             <Header />
 

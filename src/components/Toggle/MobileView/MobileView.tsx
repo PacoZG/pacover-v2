@@ -18,7 +18,7 @@ const MobileView = () => {
           <input type="checkbox" name="" id="toggle" className="hidden" />
 
           <span
-            className="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+            className="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
             onClick={handleTheme}
           >
             <SunIcon className="absolute left-1 h-6 w-6 transition duration-500 text-gray-800 text-opacity-0 dark:text-opacity-100" />
