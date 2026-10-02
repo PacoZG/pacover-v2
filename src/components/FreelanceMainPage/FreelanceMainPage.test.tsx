@@ -1,17 +1,15 @@
 import React from 'react'
 import { render, fireEvent, screen } from '@testing-library/react'
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import FreelanceMainPage from './FreelanceMainPage'
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom/vitest'
+
+vi.mock('next-intl', () => ({
+  useTranslations: () => (key: string) => key,
+}))
 
 describe('Freelance', () => {
   describe('given configured with dependencies', () => {
-    beforeEach(() => {
-      vi.mock('next-intl', () => ({
-        useTranslations: () => (key: string) => key,
-      }))
-    })
-
     describe('FreelanceMainPage', () => {
       describe('When called', () => {
         describe('takes a snapshot', () => {

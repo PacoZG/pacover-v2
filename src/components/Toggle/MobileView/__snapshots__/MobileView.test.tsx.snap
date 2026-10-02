@@ -16,7 +16,7 @@ exports[`MobileView > MobileView component > matches the snapshot 1`] = `
           type="checkbox"
         />
         <span
-          class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+          class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
         >
           <svg
             aria-hidden="true"

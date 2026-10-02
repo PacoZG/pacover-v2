@@ -381,7 +381,7 @@ exports[`Main Page > given configured with dependencies > Main Page component > 
             >
               <svg
                 aria-hidden="true"
-                class="lucide lucide-circle-check-big h-10 w-10 text-blue-500 dark:text-blue-300"
+                class="lucide lucide-circle-check-big lucide-check-circle h-10 w-10 text-blue-500 dark:text-blue-300"
                 fill="none"
                 height="24"
                 stroke="currentColor"

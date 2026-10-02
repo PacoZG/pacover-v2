@@ -5,14 +5,14 @@ import WorkingCompany, {
   WorkingCompanyProps,
 } from '@/components/Experience/WorkingCompany/WorkingCompany'
 
+vi.mock('next-intl', () => ({
+  useTranslations: () => (key: string) => key,
+}))
+
 describe('Experience', () => {
   describe('given configured with dependencies', () => {
     beforeEach(() => {
       window.scrollTo = vi.fn()
-
-      vi.mock('next-intl', () => ({
-        useTranslations: () => (key: string) => key,
-      }))
     })
 
     describe('when called', () => {

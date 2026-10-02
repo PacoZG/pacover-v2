@@ -17,7 +17,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
         >
           <svg
             aria-hidden="true"
-            class="lucide lucide-house h-7 w-7"
+            class="lucide lucide-house lucide-home h-7 w-7"
             fill="none"
             height="24"
             stroke="currentColor"
@@ -54,7 +54,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
                     type="checkbox"
                   />
                   <span
-                    class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+                    class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
                   >
                     <svg
                       aria-hidden="true"
@@ -115,10 +115,10 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
                     type="checkbox"
                   />
                   <span
-                    class="w-9 h-5 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+                    class="w-11 h-6 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
                   >
                     <div
-                      class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-100 dark:transform dark:translate-x-3"
+                      class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-500 dark:transform dark:translate-x-5"
                     />
                   </span>
                 </div>
@@ -177,7 +177,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
         >
           <svg
             aria-hidden="true"
-            class="lucide lucide-house h-8 w-8"
+            class="lucide lucide-house lucide-home h-8 w-8"
             fill="none"
             height="24"
             stroke="currentColor"
@@ -211,7 +211,7 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
                   type="checkbox"
                 />
                 <span
-                  class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+                  class="relative w-14 h-7 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
                 >
                   <svg
                     aria-hidden="true"
@@ -272,10 +272,10 @@ exports[`Header > given configured with dependencies > <Header /> > matches snap
                   type="checkbox"
                 />
                 <span
-                  class="w-9 h-5 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+                  class="w-11 h-6 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
                 >
                   <div
-                    class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-100 dark:transform dark:translate-x-3"
+                    class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-500 dark:transform dark:translate-x-5"
                   />
                 </span>
               </div>

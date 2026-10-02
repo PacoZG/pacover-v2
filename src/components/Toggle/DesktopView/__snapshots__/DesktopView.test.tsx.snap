@@ -28,10 +28,10 @@ exports[`DesktopView > DesktopView component > matches the snapshot 1`] = `
           type="checkbox"
         />
         <span
-          class="w-9 h-5 flex items-center shadow-lg bg-gray-300 dark:bg-gray-300 rounded-full p-1 cursor-pointer"
+          class="w-11 h-6 flex items-center shadow-lg bg-gray-300 dark:bg-gray-600 rounded-full p-1 cursor-pointer"
         >
           <div
-            class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-100 dark:transform dark:translate-x-3"
+            class="w-4 h-4 bg-blue-800 rounded-full shadow-md transition duration-500 dark:transform dark:translate-x-5"
           />
         </span>
       </div>

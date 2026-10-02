@@ -165,8 +165,10 @@ exports[`Footer > given configured with dependencies > Footer component > matche
             class="flex items-center justify-center gap-4"
           >
             <button
+              aria-label="Share on Facebook"
               class="react-share__ShareButton focus-within:outline-none"
-              style="background-color: transparent; border: medium; padding: 0px; font: inherit; color: inherit; cursor: pointer;"
+              style="background-color: transparent; border: medium; padding: 0px; display: inline-flex; border-radius: 50%; outline-offset: 2px; font: inherit; color: inherit; cursor: pointer;"
+              type="button"
             >
               <svg
                 height="28"
@@ -176,7 +178,7 @@ exports[`Footer > given configured with dependencies > Footer component > matche
                 <circle
                   cx="32"
                   cy="32"
-                  fill="#0965FE"
+                  fill="#0866FF"
                   r="32"
                 />
                 <path
@@ -186,8 +188,10 @@ exports[`Footer > given configured with dependencies > Footer component > matche
               </svg>
             </button>
             <button
+              aria-label="Share on LinkedIn"
               class="react-share__ShareButton focus-within:outline-none"
-              style="background-color: transparent; border: medium; padding: 0px; font: inherit; color: inherit; cursor: pointer;"
+              style="background-color: transparent; border: medium; padding: 0px; display: inline-flex; border-radius: 50%; outline-offset: 2px; font: inherit; color: inherit; cursor: pointer;"
+              type="button"
             >
               <svg
                 height="28"

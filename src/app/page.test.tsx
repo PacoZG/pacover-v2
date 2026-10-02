@@ -4,14 +4,14 @@ import { render } from '@testing-library/react'
 import { beforeEach, describe, expect, test, vi } from 'vitest'
 import Page from '@/app/page'
 
+vi.mock('next-intl', () => ({
+  useTranslations: () => (key: string) => key,
+}))
+
 describe('Main Page', () => {
   describe('given configured with dependencies', () => {
     beforeEach(() => {
       window.scrollTo = vi.fn()
-
-      vi.mock('next-intl', () => ({
-        useTranslations: () => (key: string) => key,
-      }))
     })
 
     describe('Main Page component', () => {

@@ -1,15 +1,13 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import { beforeEach, describe, expect, test, vi } from 'vitest'
+import { describe, expect, test, vi } from 'vitest'
 import DesktopView from '@/components/Toggle/DesktopView/DesktopView'
 
-describe('DesktopView', () => {
-  beforeEach(() => {
-    vi.mock('next-intl', () => ({
-      useTranslations: () => (key: string) => key,
-    }))
-  })
+vi.mock('next-intl', () => ({
+  useTranslations: () => (key: string) => key,
+}))
 
+describe('DesktopView', () => {
   describe('DesktopView component', () => {
     test('matches the snapshot', () => {
       const { container } = render(<DesktopView />)
