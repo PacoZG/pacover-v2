@@ -1,5 +1,5 @@
 import React from 'react'
-import { render } from '@testing-library/react'
+import { fireEvent, render, waitFor, within } from '@testing-library/react'
 import { describe, test, expect, vi } from 'vitest'
 import Footer from '@/components/Footer/Footer'
 
@@ -14,6 +14,41 @@ describe('Footer', () => {
         const { container } = render(<Footer />)
 
         expect(container).toMatchSnapshot()
+      })
+
+      test.each([
+        '/cv/presentation',
+        '/?redirect=https://attacker.example#https://attacker.example',
+      ])('shares the canonical site URL from %s', async location => {
+        const originalUrl = window.location.href
+        const openWindow = vi.spyOn(window, 'open').mockReturnValue(null)
+
+        try {
+          window.history.replaceState(null, '', location)
+          const { container } = render(<Footer />)
+
+          fireEvent.click(
+            within(container).getByRole('button', { name: 'Share on Facebook' })
+          )
+          fireEvent.click(
+            within(container).getByRole('button', { name: 'Share on LinkedIn' })
+          )
+
+          await waitFor(() => expect(openWindow).toHaveBeenCalledTimes(2))
+          const sharedUrls = openWindow.mock.calls.map(([url]) => {
+            const shareUrl = new URL(String(url))
+            return (
+              shareUrl.searchParams.get('u') ?? shareUrl.searchParams.get('url')
+            )
+          })
+          expect(sharedUrls).toEqual([
+            'https://www.pacoderzavala.com',
+            'https://www.pacoderzavala.com',
+          ])
+        } finally {
+          window.history.replaceState(null, '', originalUrl)
+          openWindow.mockRestore()
+        }
       })
     })
   })

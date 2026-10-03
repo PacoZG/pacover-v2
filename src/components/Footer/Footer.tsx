@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { AtSymbolIcon } from '@heroicons/react/24/outline'
 import {
   FacebookIcon,
@@ -14,12 +14,7 @@ import { useTranslations } from 'next-intl'
 const Footer: React.FC = () => {
   const t = useTranslations('Footer')
 
-  // Lazy initializer reads window.location.href once on mount instead of
-  // scheduling a synchronous setState inside an effect (avoids the extra
-  // render pass flagged by react-hooks/set-state-in-effect).
-  const [currentUrl] = useState(() =>
-    typeof window !== 'undefined' ? window.location.href : ''
-  )
+  const currentUrl = 'https://www.pacoderzavala.com'
 
   return (
     <div

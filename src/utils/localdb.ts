@@ -21,7 +21,7 @@ const setLanguage = (lang: string) => {
     localStorage.setItem('usersLanguage', JSON.stringify(lang))
     // 'locale' cookie is read server-side (src/i18n/request.ts) to pick the
     // locale/messages for the next server render — no URL segment needed.
-    document.cookie = `locale=${lang}; path=/; max-age=31536000; samesite=lax`
+    document.cookie = `locale=${lang}; path=/; max-age=31536000; samesite=lax; secure`
   }
 }
 
