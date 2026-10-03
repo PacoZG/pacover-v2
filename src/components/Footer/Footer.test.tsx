@@ -28,15 +28,16 @@ describe('Footer', () => {
           const { container } = render(<Footer />)
 
           fireEvent.click(
-            within(container).getByRole('button', { name: 'Share on Facebook' })
+            within(container).getByRole('button', { name: 'Share on Facebook' }),
           )
           fireEvent.click(
-            within(container).getByRole('button', { name: 'Share on LinkedIn' })
+            within(container).getByRole('button', { name: 'Share on LinkedIn' }),
           )
 
           await waitFor(() => expect(openWindow).toHaveBeenCalledTimes(2))
           const sharedUrls = openWindow.mock.calls.map(([url]) => {
             const shareUrl = new URL(String(url))
+
             return (
               shareUrl.searchParams.get('u') ?? shareUrl.searchParams.get('url')
             )
